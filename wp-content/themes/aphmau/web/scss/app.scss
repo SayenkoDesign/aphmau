@@ -3,3 +3,9 @@
 @import "foundation";
 @include foundation-everything();
 @import "supertheme";
+
+.top-bar {
+  margin-top: 0 !important;
+  max-width: 100% !important;
+  width: 100%;
+}

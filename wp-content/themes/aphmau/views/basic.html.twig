@@ -1,1 +1,35 @@
 {% extends 'base.html.twig' %}
+{% block header %}
+    <header data-sticky-container>
+        <div class="top-bar" data-sticky data-options="marginTop:0; with:100%; max-width: none;">
+            <div id="large-menu" class="hide-for-small-only">
+                <div class="top-bar-left">
+                    <ul class="dropdown menu" data-dropdown-menu>
+                        <li><a href="#">Two</a></li>
+                        <li><a href="#">Three</a></li>
+                    </ul>
+                </div>
+                <div class="top-bar-right">
+                    <ul class="dropdown menu" data-dropdown-menu>
+                        <li><a href="#">Two</a></li>
+                        <li><a href="#">Three</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="small-menu-bar" data-responsive-toggle="small-menu" data-hide-for="medium">
+                <a class="" data-toggle><i class="fa fa-bars"></i></a>
+            </div>
+            <div class="small-menu" id="small-menu">
+                <div class="hide-for-medium">
+                    <ul class="vertical menu">
+                        <li><a href="">Two</a></li>
+                        <li><a href="">Three</a></li>
+                        <li><a href="">Two</a></li>
+                        <li><a href="">Three</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+{% endblock %}
