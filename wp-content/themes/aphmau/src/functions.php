@@ -47,7 +47,7 @@ add_action('init', function () use($container) {
             'page_title' => 'Theme Options',
             'capability' => 'edit_theme_options',
             'icon_url' => 'dashicons-sayenko',
-            'position' => 59,
+            'position' => 60,
         ]);
     }
 });
@@ -136,7 +136,7 @@ add_action('admin_menu', function () use($twig) {
             ]);
         },
         'dashicons-no-alt',
-        75
+        61
     );
 });
 
