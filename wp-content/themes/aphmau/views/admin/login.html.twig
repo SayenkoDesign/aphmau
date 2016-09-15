@@ -1,0 +1,10 @@
+<style type="text/css">
+    h1 a {
+    {% if SP.ACF.get_field('logo', 'option') %}
+        background-image: url('{{ SP.ACF.get_field('logo', 'option').url }}') !important;
+    {% endif %}
+        background-size: contain !important;
+        width: 320px !important;
+        height: 120px !important;
+    }
+</style>
