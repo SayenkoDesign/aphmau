@@ -151,4 +151,19 @@ class WordPress
     {
         return get_bloginfo($string, $filter);
     }
+
+    public function isLoggedIn()
+    {
+        return is_user_logged_in();
+    }
+
+    public function getLoginURL()
+    {
+        return wp_login_url();
+    }
+
+    public function logoutURL()
+    {
+        return wp_logout_url();
+    }
 }

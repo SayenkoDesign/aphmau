@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Tamma';
+
 //  Foundation for Sites Settings
 //  -----------------------------
 //
@@ -48,16 +50,20 @@
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
+
+// darker two tone pastel
 $foundation-palette: (
-  primary: #2199e8,
-  secondary: #777,
+  primary: #675162,
+  secondary: #F3E1F2,
+  accent: #f485d0,
   success: #3adb76,
-  warning: #ffae00,
+  warning: #ffedc0,
   alert: #ec5840,
 );
+$accent-color: map-get($foundation-palette, accent);
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
+$dark-gray: #444;
 $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
@@ -103,8 +109,8 @@ $block-grid-max: 8;
 // ------------------
 
 $fa-font-path: "../libs/font-awesome/fonts";
-$header-font-family: $body-font-family;
-$header-font-weight: $global-weight-normal;
+$header-font-family: 'Baloo Tamma', cursive;
+$header-font-weight: $global-weight-bold;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (

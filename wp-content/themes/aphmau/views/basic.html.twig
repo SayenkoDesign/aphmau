@@ -1,19 +1,74 @@
 {% extends 'base.html.twig' %}
+{% block stylesheets %}
+    {{ parent() }}
+    <style>
+        {% if SP.ACF.get_field('background_image', 'option') %}
+            body {
+                background-image: url('{{ SP.ACF.get_field('background_image', 'option').url }}');
+            }
+        {% endif %}
+    </style>
+{% endblock %}
 {% block header %}
+    <header class="user-bar">
+        <div class="row column">
+            <ul class="horizontal menu">
+                {% if SP.WordPress.isLoggedIn() %}
+                    <li><a href="{{ SP.WordPress.getLogoutURL() }}">Log Out</a></li>
+                {% else %}
+                    <li><a href="{{ SP.WordPress.getLoginURL() }}">Log In</a></li>
+                {% endif %}
+            </ul>
+        </div>
+    </header>
     <header data-sticky-container>
-        <div class="top-bar" data-sticky data-options="marginTop:0; with:100%; max-width: none;">
+        <div class="top-bar" data-sticky data-top-anchor="150">
             <div id="large-menu" class="hide-for-small-only">
-                <div class="top-bar-left">
-                    <ul class="dropdown menu" data-dropdown-menu>
-                        <li><a href="#">Two</a></li>
-                        <li><a href="#">Three</a></li>
-                    </ul>
-                </div>
-                <div class="top-bar-right">
-                    <ul class="dropdown menu" data-dropdown-menu>
-                        <li><a href="#">Two</a></li>
-                        <li><a href="#">Three</a></li>
-                    </ul>
+                <div class="row align-middle">
+                    <div class="shrink columns">
+                        {% if SP.ACF.get_field('logo', 'option') %}
+                            <a href="{{ url }}" class="home"><img src="{{ SP.ACF.get_field('logo', 'option').url }}" alt=""></a>
+                        {% endif %}
+                    </div>
+                    <div class="columns">
+                        <ul class="dropdown menu" data-dropdown-menu>
+                            <li>
+                                <a href="{{ url }}/forums">
+                                    <i class="fa fa-users"></i>
+                                    <span>Forums</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-shopping-bag"></i>
+                                    <span>Shop</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-comments"></i>
+                                    <span>Blog</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shrink columns">
+                        <ul class="social horizontal menu">
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href=""><i class="fa fa-tumblr"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitch"></i></a></li>
+                            <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                        <div class="input-group">
+                            <input class="input-group-field" type="text">
+                            <div class="input-group-button">
+                                <button type="submit" class="secondary button"><i class="fa fa-search"></i> Search</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -22,14 +77,33 @@
             </div>
             <div class="small-menu" id="small-menu">
                 <div class="hide-for-medium">
-                    <ul class="vertical menu">
-                        <li><a href="">Two</a></li>
-                        <li><a href="">Three</a></li>
-                        <li><a href="">Two</a></li>
-                        <li><a href="">Three</a></li>
-                    </ul>
+                    {{
+                        SP.WordPRess.menu({
+                            'container': false,
+                            'theme_location': "primary_menu",
+                            'items_wrap': '<ul id="%1$s" class="%2$s" data-accordion-menu>%3$s</ul>',
+                            'walker': walkers.accordion,
+                            'menu_id': '',
+                            'menu_class': 'vertical menu'
+                        })
+                    }}
                 </div>
             </div>
         </div>
     </header>
+{% endblock %}
+{% block content %}
+    <div class="row column">
+        {% if panels is defined %}
+            {% for panel in panels %}
+                {{ panel | raw }}
+            {% endfor %}
+        {% else %}
+            <main class="content">
+                <h1>{{ SP.WordPress.title() }}</h1>
+                {{ SP.WordPress.content() }}
+                <a href="" class="accent button">Do this thingy</a>
+            </main>
+        {% endif %}
+    </div>
 {% endblock %}

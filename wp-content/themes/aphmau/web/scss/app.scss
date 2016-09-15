@@ -1,11 +1,19 @@
 @import "settings";
 @import "font-awesome";
 @import "foundation";
-@include foundation-everything();
+@include foundation-everything(true);
 @import "supertheme";
+
+@import "partials/header";
+@import "partials/slider";
 
 .top-bar {
   margin-top: 0 !important;
   max-width: 100% !important;
   width: 100%;
+}
+
+main.content {
+  background-color: $secondary-color;
+  padding: $global-padding*2;
 }

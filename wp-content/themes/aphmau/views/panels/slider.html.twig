@@ -1,0 +1,17 @@
+<section class="hero-slider">
+    <div class="row column">
+        <div class="slick">
+            {% for slide in SP.ACF.get_sub_field('slider') %}
+                <div class="slide">
+                    <img src="{{ slide.background_image.sizes.fullscreen }}" alt="">
+                    <div class="centered-content">
+                        {% if slide.text %} <h2>{{ slide.text }}</h2> {% endif %}
+                        {% if slide.slider_type == "video" %}
+                            <a href="" class="fa fa-play"></a>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

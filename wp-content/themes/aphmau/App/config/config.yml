@@ -21,13 +21,15 @@ parameters:
     - "post-thumbnails"
   wordpress.translations: "%template_dir%/languages"
   wordpress.image_sizes:
-    fullscreen: [1920, 1080, true]
+    fullscreen: [1280, 720, true]
   wordpress.menus:
     primary_menu: "Primary Menu"
   wordpress.sidebars:
     - { id: "sample_sidebar", name: "sample sidebar", description: "sample sidebar managed by config file" }
   wordpress.styles:
-    - { id: "app", source: "%template_uri%/web/stylesheets/app.css", deps: ~ }
+    - { id: "slick", source: "%template_uri%/web/stylesheets/slick.css", deps: ~ }
+    - { id: "slick_theme", source: "%template_uri%/web/stylesheets/slick-theme.css", deps: ["slick"] }
+    - { id: "app", source: "%template_uri%/web/stylesheets/app.css", deps: ["slick_theme"] }
   wordpress.scripts:
     - { id: "app", source: "%template_uri%/web/scripts-min/app.min.js", deps: ~, header: false }
 

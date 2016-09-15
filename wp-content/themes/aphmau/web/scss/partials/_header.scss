@@ -1,0 +1,60 @@
+.user-bar{
+  background-color: $dark-gray;
+  text-align: right;
+  .row.column {
+    width: 100%;
+    max-width: 1200px;
+  }
+  ul {
+    justify-content: flex-end;
+  }
+  a {
+    color: $white;
+    text-transform: uppercase;
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+.top-bar {
+  background-color: $primary-color;
+  .menu {
+    background-color: $primary-color;
+    a {
+      color: $white;
+      text-transform: uppercase;
+      flex-flow: column;
+      text-align: center;
+      font-size: rem-calc(14px);
+      margin: 0 1rem;
+      &:hover {
+        color: $accent-color;
+      }
+      i {
+        display: block;
+        font-size: rem-calc(32px);
+        margin-bottom: $global-margin;
+      }
+      span {
+        display: block;
+      }
+    }
+  }
+  .social {
+    a {
+      margin: 0;
+      padding: 0.5rem;
+      i {
+        font-size: rem-calc(24px);
+      }
+    }
+  }
+  #large-menu {
+    width: 100%;
+    max-width: 1200px !important;
+    margin: 0 auto;
+    .home {
+      float: left;
+    }
+  }
+}
