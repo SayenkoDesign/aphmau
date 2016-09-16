@@ -4,7 +4,7 @@ parameters:
     - "%template_dir%/src/views"
     - "%template_dir%/vendor/symfony/twig-bridge/Resources/views/Form"
   twig.options:
-    debug:            "%WP_DEBUG%"
+    debug:            true
     charset:          "utf-8"
     cache:            ~
     auto_reload:      "%WP_DEBUG%"
@@ -32,6 +32,14 @@ parameters:
     - { id: "app", source: "%template_uri%/web/stylesheets/app.css", deps: ["slick_theme"] }
   wordpress.scripts:
     - { id: "app", source: "%template_uri%/web/scripts-min/app.min.js", deps: ~, header: false }
+  wordpress.post_types:
+    videos:
+      public: true
+      has_archive: true
+      labels: {name: "Videos", singular_name: "Video"}
+      menu_position: 6
+      menu_icon: "dashicons-video-alt3"
+      supports: ["title", "editor", "author", "thumbnail", "excerpt"]
 
 services:
   # just the basics

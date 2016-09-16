@@ -1,0 +1,38 @@
+<section class="videos">
+    <div class="row column">
+        <div class="expanded button-group">
+            <a class="button" data-filter="*">All</a>
+            {% set button_term_ids = [] %}
+            {% for video in SP.ACF.get_sub_field('videos') %}
+                {% for term in SP.WordPress.getPostTerms(video.video.ID, 'video_categories') %}
+                    {% if term.term_id not in button_term_ids %}
+                        {% set button_term_ids = button_term_ids|merge([term.term_id]) %}
+                        <a class="button" data-filter="{{ term.term_id }}">{{ term.name }}</a>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </div>
+        <div class="masonry">
+            {% for video in SP.ACF.get_sub_field('videos') %}
+                {% if loop.first %}
+                    <div class="brick-sizer">
+                        <img src="{{ video.image.url }}" alt="">
+                    </div>
+                {% else %}
+                    <div class="brick
+                        {% for term in SP.WordPress.getPostTerms(video.video.ID, 'video_categories') %}
+                            category-{{ term.term_id }}
+                        {% endfor %}
+                    ">
+                        <a href="{{ SP.WordPress.url(video.video.ID) }}">
+                            <img src="{{ video.image.url }}" alt="">
+                            <div class="centered-content">
+                                <h5>{{ SP.WordPress.title(video.video.ID) }}</h5>
+                            </div>
+                        </a>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

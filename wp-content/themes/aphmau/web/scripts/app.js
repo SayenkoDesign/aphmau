@@ -9,4 +9,23 @@ jQuery(function() {
         autoplaySpeed: 5000,
         speed: 1000
     });
+
+    var masonry = jQuery('.videos .masonry');
+    masonry.isotope({
+        itemSelector: '.brick',
+        percentPosition: true,
+        masonry: {
+            // use element for option
+            columnWidth: '.brick-sizer'
+        }
+    });
+    jQuery('.videos .button-group a').on('click', function(){
+        var filter;
+        if(jQuery(this).attr('data-filter') == "*") {
+            filter = "*";
+        } else {
+            filter = '.category-' + jQuery(this).attr('data-filter');
+        }
+        masonry.isotope({ filter: filter });
+    })
 });

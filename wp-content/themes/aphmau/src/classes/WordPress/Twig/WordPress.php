@@ -104,6 +104,11 @@ class WordPress
     {
         return get_categories($args);
     }
+    
+    public function getPostTerms($post_id, $taxonomy)
+    {
+        return get_the_terms($post_id, $taxonomy);
+    }
 
     public function getPreviousLink($format = '&laquo; %link', $link = '%title', $in_same_term = false, $excluded_terms = '', $taxonomy = 'category')
     {

@@ -7,7 +7,7 @@
                     <div class="centered-content">
                         {% if slide.text %} <h2>{{ slide.text }}</h2> {% endif %}
                         {% if slide.slider_type == "video" %}
-                            <a href="" class="fa fa-play"></a>
+                            <a href="{{ SP.WordPress.URL(slide.video.ID) }}" class="fa fa-play"></a>
                         {% endif %}
                     </div>
                 </div>

@@ -1,4 +1,7 @@
 .hero-slider {
+  .slick {
+    margin-bottom: 0;
+  }
   .slick-dots {
     bottom: map-get($grid-column-gutter, small);
     @include breakpoint(medium) {
@@ -46,6 +49,18 @@
         2px -2px 0 $white,
         -2px 2px 0 $white,
         2px 2px 0 $white;
+    }
+    a {
+      font-size: rem-calc(64px);
+      text-shadow:
+        -2px -2px 0 $white,
+        2px -2px 0 $white,
+        -2px 2px 0 $white,
+        2px 2px 0 $white;
+      color: $accent-color;
+      &:hover {
+        color: $primary-color;
+      }
     }
   }
 }

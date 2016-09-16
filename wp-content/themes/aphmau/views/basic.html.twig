@@ -39,15 +39,15 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://google.com">
                                     <i class="fa fa-shopping-bag"></i>
                                     <span>Shop</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <i class="fa fa-comments"></i>
-                                    <span>Blog</span>
+                                <a href="{{ url }}/videos">
+                                    <i class="fa fa-play"></i>
+                                    <span>Videos</span>
                                 </a>
                             </li>
                         </ul>
@@ -99,11 +99,9 @@
                 {{ panel | raw }}
             {% endfor %}
         {% else %}
-            <main class="content">
-                <h1>{{ SP.WordPress.title() }}</h1>
-                {{ SP.WordPress.content() }}
-                <a href="" class="accent button">Do this thingy</a>
-            </main>
+            <h1>{{ SP.WordPress.title() }}</h1>
+            {{ SP.WordPress.content() }}
+            <a href="" class="accent button">Do this thingy</a>
         {% endif %}
     </div>
 {% endblock %}

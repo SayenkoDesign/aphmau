@@ -13,7 +13,91 @@
   width: 100%;
 }
 
+// one column
 main.content {
   background-color: $secondary-color;
   padding: $global-padding*2;
+}
+
+// two column
+.two-column {
+  .medium-4, .medium-8 {
+    padding-top: $global-padding*2;
+    padding-bottom: $global-padding*2;
+  }
+  .medium-4 {
+    background-color: $primary-color;
+    color: $white;
+    a {
+      color: $white;
+      padding: 0.5rem 0;
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+  .medium-8 {
+    background-color: $secondary-color;
+  }
+}
+
+// masonry videos
+section.videos {
+  padding: map-get($grid-column-gutter, medium);
+  background-color: $secondary-color;
+  .button-group {
+    margin: 0;
+  }
+  .masonry {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .brick, .brick-sizer {
+    width: 33.33%;
+    padding: 15px;
+
+    a {
+      position: relative;
+      text-align: center;
+      color: $white;
+      display: block;
+      &:after {
+        content: "";
+        display: block;
+        background-color: rgba($primary-color, 0.5);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+      .centered-content {
+        z-index: 1;
+        padding: $global-padding;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
+// responsive embedes
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
