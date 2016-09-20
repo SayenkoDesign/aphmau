@@ -39,7 +39,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://google.com">
+                                <a href="http://shop.maker.tv/collections/aphmau" target="blank">
                                     <i class="fa fa-shopping-bag"></i>
                                     <span>Shop</span>
                                 </a>
@@ -54,13 +54,24 @@
                     </div>
                     <div class="shrink columns">
                         <ul class="social horizontal menu">
-                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href=""><i class="fa fa-tumblr"></i></a></li>
-                            <li><a href=""><i class="fa fa-twitch"></i></a></li>
-                            <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                            {% if SP.ACF.get_field('facebook', 'option') %}
+                                <li><a href="{{ SP.ACF.get_field('facebook', 'option') }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            {% endif %}
+                            {% if SP.ACF.get_field('twitter', 'option') %}
+                                <li><a href="{{ SP.ACF.get_field('twitter', 'option') }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            {% endif %}
+                            {% if SP.ACF.get_field('instagram', 'option') %}
+                                <li><a href="{{ SP.ACF.get_field('instagram', 'option') }}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            {% endif %}
+                            {% if SP.ACF.get_field('tumblr', 'option') %}
+                                <li><a href="{{ SP.ACF.get_field('tumblr', 'option') }}" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+                            {% endif %}
+                            {% if SP.ACF.get_field('twitch', 'option') %}
+                                <li><a href="{{ SP.ACF.get_field('twitch', 'option') }}" target="_blank"><i class="fa fa-twitch"></i></a></li>
+                            {% endif %}
+                            {% if SP.ACF.get_field('youtube', 'option') %}
+                                <li><a href="{{ SP.ACF.get_field('youtube', 'option') }}" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                            {% endif %}
                         </ul>
                         <div class="input-group">
                             <input class="input-group-field" type="text">
@@ -94,14 +105,26 @@
 {% endblock %}
 {% block content %}
     <div class="row column">
-        {% if panels is defined %}
+        {% if panels is defined and panels %}
             {% for panel in panels %}
                 {{ panel | raw }}
             {% endfor %}
         {% else %}
-            <h1>{{ SP.WordPress.title() }}</h1>
-            {{ SP.WordPress.content() }}
-            <a href="" class="accent button">Do this thingy</a>
+            <article class="one-column">
+                <h1>{{ SP.WordPress.title() }}</h1>
+                {{ SP.WordPress.content() }}
+            </article>
         {% endif %}
     </div>
+{% endblock %}
+{% block footer %}
+    <div class="row column">
+        <footer class="footer">
+            <small>&copy; 2016 All rights reserved. <a href="http://sayenkodesign.com">Web Design Seattle</a> by <a href="http://sayenkodesign.com">Sayenko Design</a>.</small>
+        </footer>
+    </div>
+{% endblock %}
+{% block scripts %}
+    <script data-cfasync="false" type="text/javascript" src="//filamentapp.s3.amazonaws.com/8f395c05dd52d31c7420a3d2f929d0ab.js" async="async"></script>
+    {{ parent() }}
 {% endblock %}
