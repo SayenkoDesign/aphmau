@@ -167,7 +167,7 @@ class WordPress
         return wp_login_url();
     }
 
-    public function logoutURL()
+    public function getLogoutURL()
     {
         return wp_logout_url();
     }
