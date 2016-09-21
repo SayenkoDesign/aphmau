@@ -3,7 +3,7 @@
     margin-bottom: 0;
   }
   .slick-dots {
-    bottom: map-get($grid-column-gutter, small);
+    bottom: rem-calc(8px);
     @include breakpoint(medium) {
       bottom: map-get($grid-column-gutter, medium);
     }
@@ -17,11 +17,19 @@
       }
     }
     li {
+      @include breakpoint(small only){
+        width: rem-calc(12px);
+        height: rem-calc(12px);
+      }
       button {
         background-color: $white;
         &::before {
           content: "";
           display: none;
+        }
+        @include breakpoint(small only){
+          width: rem-calc(12px);
+          height: rem-calc(12px);
         }
       }
     }
@@ -33,31 +41,38 @@
   .centered-content {
     color: $accent-color;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     text-align: center;
     width: 100%;
-    padding: map-get($grid-column-gutter, small);
+    padding: 0 map-get($grid-column-gutter, small);
+    top: rem-calc(8px);
     @include breakpoint(medium) {
+      top: 50%;
+      transform: translateY(-50%);
       padding: map-get($grid-column-gutter, medium);
     }
     h2 {
-      font-size: 64px;
       font-weight: bold;
       text-shadow:
         -2px -2px 0 $white,
         2px -2px 0 $white,
         -2px 2px 0 $white,
         2px 2px 0 $white;
+      font-size: 28px;
+      @include breakpoint(medium) {
+        font-size: 64px;
+      }
     }
     a {
-      font-size: rem-calc(64px);
       text-shadow:
         -2px -2px 0 $white,
         2px -2px 0 $white,
         -2px 2px 0 $white,
         2px 2px 0 $white;
       color: $accent-color;
+      font-size: rem-calc(28px);
+      @include breakpoint(medium) {
+        font-size: rem-calc(64px);
+      }
       &:hover {
         color: $primary-color;
       }
