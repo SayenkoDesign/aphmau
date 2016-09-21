@@ -118,11 +118,14 @@
     </div>
 {% endblock %}
 {% block footer %}
-    <div class="row column">
-        <footer class="footer">
-            <small>&copy; 2016 All rights reserved. <a href="http://sayenkodesign.com">Web Design Seattle</a> by <a href="http://sayenkodesign.com">Sayenko Design</a>.</small>
-        </footer>
-    </div>
+    {% if SP.ACF.get_field('footer_content', 'option') %}
+
+        <div class="row column">
+            <footer class="footer">
+                {{ SP.ACF.get_field('footer_content', 'option') }}
+            </footer>
+        </div>
+    {% endif %}
 {% endblock %}
 {% block scripts %}
     <script data-cfasync="false" type="text/javascript" src="//filamentapp.s3.amazonaws.com/8f395c05dd52d31c7420a3d2f929d0ab.js" async="async"></script>
