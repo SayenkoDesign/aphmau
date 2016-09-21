@@ -22,6 +22,7 @@ parameters:
   wordpress.translations: "%template_dir%/languages"
   wordpress.image_sizes:
     fullscreen: [1280, 720, true]
+    teaser: [800, 450, true]
   wordpress.menus:
     primary_menu: "Primary Menu"
   wordpress.sidebars:

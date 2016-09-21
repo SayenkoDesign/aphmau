@@ -177,30 +177,6 @@
                             "button_label": "Add Row",
                             "sub_fields": [
                                 {
-                                    "key": "field_57db41ea9da85",
-                                    "label": "Image",
-                                    "name": "image",
-                                    "type": "image",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": 50,
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "return_format": "array",
-                                    "preview_size": "thumbnail",
-                                    "library": "all",
-                                    "min_width": "",
-                                    "min_height": "",
-                                    "min_size": "",
-                                    "max_width": "",
-                                    "max_height": "",
-                                    "max_size": "",
-                                    "mime_types": ""
-                                },
-                                {
                                     "key": "field_57db22e6a4c1f",
                                     "label": "Video",
                                     "name": "video",
@@ -250,5 +226,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1474457433
+    "modified": 1474474100
 }

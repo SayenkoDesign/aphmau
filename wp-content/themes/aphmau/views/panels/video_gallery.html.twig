@@ -20,7 +20,7 @@
                     {% endfor %}
                 ">
                     <a class="fancybox-media" href="{{ SP.ACF.get_field('video', video.video, false, false) }}">
-                        <img src="{{ video.image.url }}" alt="">
+                        {{ SP.WordPress.featuredImage(video.video.ID, 'teaser') }}
                         <div class="centered-content">
                             <h5>{{ SP.WordPress.title(video.video.ID) }}</h5>
                         </div>
