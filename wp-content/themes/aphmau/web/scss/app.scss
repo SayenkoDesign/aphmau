@@ -102,8 +102,14 @@ section.videos {
   height: 100%;
 }
 
-.flare {
+body .flare {
   background-color: $secondary-color;
+}
+body .flare[data-flare-skin="modern"] .flare-total {
+  font-family: $body-font-family !important;
+}
+body .flare[data-flare-skin="modern"] .flare-total > strong {
+  font-family: $header-font-family !important;
 }
 
 footer.footer {
