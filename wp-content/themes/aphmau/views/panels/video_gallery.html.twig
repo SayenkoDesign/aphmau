@@ -24,7 +24,7 @@
                             category-{{ term.term_id }}
                         {% endfor %}
                     ">
-                        <a href="{{ SP.WordPress.url(video.video.ID) }}">
+                        <a class="fancybox-media" href="{{ SP.ACF.get_field('video', video.video, false, false) }}">
                             <img src="{{ video.image.url }}" alt="">
                             <div class="centered-content">
                                 <h5>{{ SP.WordPress.title(video.video.ID) }}</h5>

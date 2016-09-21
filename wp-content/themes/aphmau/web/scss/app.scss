@@ -112,6 +112,17 @@ body .flare[data-flare-skin="modern"] .flare-total > strong {
   font-family: $header-font-family !important;
 }
 
+.fancybox-overlay {
+  background-image: none;
+  background-color: rgba($primary-color, 0.8);
+}
+.fancybox-skin {
+  background-color: $primary-color;
+  border-radius: 0;
+  padding: 0 !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 1) !important;
+}
+
 footer.footer {
   background-color: $dark-gray;
   color: $light-gray;

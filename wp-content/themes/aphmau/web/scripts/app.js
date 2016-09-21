@@ -1,6 +1,16 @@
 jQuery(function() {
     jQuery(document).foundation();
     jQuery('.fancybox').fancybox();
+    jQuery('.fancybox-media').fancybox({
+        openEffect  : 'none',
+        closeEffect : 'none',
+        helpers : {
+            media : {},
+            overlay: {
+                locked: false
+            }
+        }
+    });
     jQuery('.slick').slick({
         arrows: false,
         dots: true,
