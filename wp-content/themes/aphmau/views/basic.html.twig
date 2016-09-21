@@ -104,26 +104,30 @@
     </header>
 {% endblock %}
 {% block content %}
-    <div class="row column">
-        {% if panels is defined and panels %}
-            {% for panel in panels %}
-                {{ panel | raw }}
-            {% endfor %}
-        {% else %}
-            <article class="one-column">
-                <h1>{{ SP.WordPress.title() }}</h1>
-                {{ SP.WordPress.content() }}
-            </article>
-        {% endif %}
+    <div class="row small-collapse">
+        <div class="small-12 columns">
+            {% if panels is defined and panels %}
+                {% for panel in panels %}
+                    {{ panel | raw }}
+                {% endfor %}
+            {% else %}
+                <article class="one-column">
+                    <h1>{{ SP.WordPress.title() }}</h1>
+                    {{ SP.WordPress.content() }}
+                </article>
+            {% endif %}
+        </div>
     </div>
 {% endblock %}
 {% block footer %}
     {% if SP.ACF.get_field('footer_content', 'option') %}
 
-        <div class="row column">
-            <footer class="footer">
-                {{ SP.ACF.get_field('footer_content', 'option') }}
-            </footer>
+        <div class="row small-collapse">
+            <div class="small-12 columns">
+                <footer class="footer">
+                    {{ SP.ACF.get_field('footer_content', 'option') }}
+                </footer>
+            </div>
         </div>
     {% endif %}
 {% endblock %}

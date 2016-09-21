@@ -104,6 +104,11 @@ class WordPress
     {
         return get_categories($args);
     }
+
+    public function getTermLink($term, $taxonomy = '')
+    {
+        return get_term_link($term, $taxonomy);
+    }
     
     public function getPostTerms($post_id, $taxonomy)
     {
