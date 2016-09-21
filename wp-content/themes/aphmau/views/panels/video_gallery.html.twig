@@ -12,7 +12,7 @@
                 {% endfor %}
             {% endfor %}
         </div>
-        <div class="masonry">
+        <div class="masonry video-teasers">
             {% for video in SP.ACF.get_sub_field('videos') %}
                 <div class="brick
                     {% for term in SP.WordPress.getPostTerms(video.video.ID, 'video_categories') %}

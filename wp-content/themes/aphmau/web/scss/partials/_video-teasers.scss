@@ -1,0 +1,28 @@
+.video-teasers {
+  .column {
+    margin-bottom:  map-get($grid-column-gutter, medium);
+  }
+  a {
+    position: relative;
+    text-align: center;
+    color: $white;
+    display: block;
+    &:after {
+      content: "";
+      display: block;
+      background-color: rgba($primary-color, 0.5);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+  .centered-content {
+    z-index: 1;
+    padding: $global-padding;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

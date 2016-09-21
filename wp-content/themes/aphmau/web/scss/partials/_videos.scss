@@ -1,0 +1,22 @@
+// masonry videos
+section.videos {
+  padding: map-get($grid-column-gutter, medium);
+  background-color: $secondary-color;
+  .button-group {
+    margin: 0 0 $global-padding 0;
+  }
+  .masonry {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .brick, .brick-sizer {
+    padding: 15px;
+    width: 100%;
+    @include breakpoint(medium) {
+      width: 50%;
+    }
+    @include breakpoint(large) {
+      width: 33.33%;
+    }
+  }
+}

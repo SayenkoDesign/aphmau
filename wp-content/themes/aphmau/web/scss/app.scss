@@ -6,6 +6,8 @@
 
 @import "partials/header";
 @import "partials/slider";
+@import "partials/videos";
+@import "partials/video-teasers";
 
 .top-bar {
   margin-top: 0 !important;
@@ -38,52 +40,6 @@ main.content, article.one-column {
   }
   .medium-8 {
     background-color: $secondary-color;
-  }
-}
-
-// masonry videos
-section.videos {
-  padding: map-get($grid-column-gutter, medium);
-  background-color: $secondary-color;
-  .button-group {
-    margin: 0 0 $global-padding 0;
-  }
-  .masonry {
-    margin-left: -15px;
-    margin-right: -15px;
-  }
-  .brick, .brick-sizer {
-    padding: 15px;
-    width: 100%;
-    @include breakpoint(medium) {
-      width: 50%;
-    }
-    @include breakpoint(large) {
-      width: 33.33%;
-    }
-    a {
-      position: relative;
-      text-align: center;
-      color: $white;
-      display: block;
-      &:after {
-        content: "";
-        display: block;
-        background-color: rgba($primary-color, 0.5);
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-      }
-      .centered-content {
-        z-index: 1;
-        padding: $global-padding;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-      }
-    }
   }
 }
 
