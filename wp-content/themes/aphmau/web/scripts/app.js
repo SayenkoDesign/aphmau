@@ -23,11 +23,7 @@ jQuery(function() {
     var masonry = jQuery('.videos .masonry');
     masonry.isotope({
         itemSelector: '.brick',
-        percentPosition: true,
-        masonry: {
-            // use element for option
-            columnWidth: '.brick-sizer'
-        }
+        layoutMode: 'fitRows'
     });
     jQuery('.videos .button-group a').on('click', function(){
         var filter;

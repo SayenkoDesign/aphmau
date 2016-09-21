@@ -1,6 +1,6 @@
 <section class="videos">
     <div class="row column">
-        <div class="expanded button-group">
+        <div class="stacked-for-small expanded button-group">
             <a class="button" data-filter="*">All</a>
             {% set button_term_ids = [] %}
             {% for video in SP.ACF.get_sub_field('videos') %}
@@ -14,24 +14,18 @@
         </div>
         <div class="masonry">
             {% for video in SP.ACF.get_sub_field('videos') %}
-                {% if loop.first %}
-                    <div class="brick-sizer">
+                <div class="brick
+                    {% for term in SP.WordPress.getPostTerms(video.video.ID, 'video_categories') %}
+                        category-{{ term.term_id }}
+                    {% endfor %}
+                ">
+                    <a class="fancybox-media" href="{{ SP.ACF.get_field('video', video.video, false, false) }}">
                         <img src="{{ video.image.url }}" alt="">
-                    </div>
-                {% else %}
-                    <div class="brick
-                        {% for term in SP.WordPress.getPostTerms(video.video.ID, 'video_categories') %}
-                            category-{{ term.term_id }}
-                        {% endfor %}
-                    ">
-                        <a class="fancybox-media" href="{{ SP.ACF.get_field('video', video.video, false, false) }}">
-                            <img src="{{ video.image.url }}" alt="">
-                            <div class="centered-content">
-                                <h5>{{ SP.WordPress.title(video.video.ID) }}</h5>
-                            </div>
-                        </a>
-                    </div>
-                {% endif %}
+                        <div class="centered-content">
+                            <h5>{{ SP.WordPress.title(video.video.ID) }}</h5>
+                        </div>
+                    </a>
+                </div>
             {% endfor %}
         </div>
     </div>
