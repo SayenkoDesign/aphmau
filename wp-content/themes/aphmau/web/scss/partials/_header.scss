@@ -16,8 +16,15 @@
     }
   }
 }
+.sticky-container {
+  position: absolute;
+  width: 100%;
+}
 .top-bar {
   background-color: $primary-color;
+  margin-top: 0 !important;
+  max-width: 100% !important;
+  width: 100%;
   .menu {
     background-color: $primary-color;
     a {
@@ -57,4 +64,9 @@
       float: left;
     }
   }
+}
+
+.spacer {
+  height: rem-calc(170px);
+  width: 100%;
 }
