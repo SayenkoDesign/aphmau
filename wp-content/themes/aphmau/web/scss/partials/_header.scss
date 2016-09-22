@@ -25,6 +25,7 @@
   margin-top: 0 !important;
   max-width: 100% !important;
   width: 100%;
+  z-index: 5;
   .menu {
     background-color: $primary-color;
     a {
@@ -64,9 +65,33 @@
       float: left;
     }
   }
+  .small-menu-bar {
+    width: 100%;
+    .home img {
+      max-height: 32px;
+    }
+    .fa-bars {
+      color: $white;
+      float: right;
+      font-size: rem-calc(32px);
+    }
+  }
+  #small-menu {
+    margin-top: $global-margin;
+    width: 100%;
+    a {
+      width: 100%;
+      margin: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
 }
 
 .spacer {
-  height: rem-calc(170px);
   width: 100%;
+  height: rem-calc(64px);
+  @include breakpoint(medium) {
+    height: rem-calc(170px);
+  }
 }

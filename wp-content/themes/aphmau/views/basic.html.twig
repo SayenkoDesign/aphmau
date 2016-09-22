@@ -22,7 +22,7 @@
         </div>
     </header>
     <header data-sticky-container>
-        <div class="top-bar" data-sticky data-top-anchor="150">
+        <div class="top-bar" data-sticky data-top-anchor="150" data-sticky-on="small">
             <div id="large-menu" class="hide-for-small-only">
                 <div class="row align-middle">
                     <div class="shrink columns">
@@ -88,9 +88,13 @@
 
             <div class="small-menu-bar" data-responsive-toggle="small-menu" data-hide-for="medium">
                 <a class="" data-toggle><i class="fa fa-bars"></i></a>
+
+                {% if SP.ACF.get_field('logo', 'option') %}
+                    <a href="{{ url }}" class="home"><img src="{{ SP.ACF.get_field('mobile_logo', 'option').url }}" alt=""></a>
+                {% endif %}
             </div>
-            <div class="small-menu" id="small-menu">
-                <div class="hide-for-medium">
+            <div class="small-menu hide-for-medium" id="small-menu">
+                <div class="">
                     {{
                         SP.WordPRess.menu({
                             'container': false,
