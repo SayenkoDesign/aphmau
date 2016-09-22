@@ -31,6 +31,11 @@ main.content, article.one-column {
   padding: $global-padding*2;
 }
 
+// pagination
+.pagination a:hover, .pagination button:hover {
+  text-decoration: underline;
+}
+
 // two column
 .two-column {
   .medium-4, .medium-8 {
