@@ -34,17 +34,28 @@
       flex-flow: column;
       text-align: center;
       font-size: rem-calc(14px);
-      margin: 0 1rem;
+      padding: $global-padding/2;
       &:hover {
         color: $accent-color;
       }
+      @include breakpoint(large) {
+        padding: $global-padding;
+        margin: 0 1rem;
+      }
       i {
-        display: block;
-        font-size: rem-calc(32px);
-        margin-bottom: $global-margin;
+        @include breakpoint(medium) {
+          display: block;
+          font-size: rem-calc(32px);
+          margin-bottom: $global-margin/2;
+        }
+        @include breakpoint(large) {
+          margin-bottom: $global-margin;
+        }
       }
       span {
-        display: block;
+        @include breakpoint(medium) {
+          display: block;
+        }
       }
     }
   }
@@ -81,9 +92,11 @@
     width: 100%;
     a {
       width: 100%;
+      display: block;
       margin: 0;
       padding-left: 0;
       padding-right: 0;
+      text-align: left;
     }
   }
 }

@@ -24,32 +24,22 @@
     <header data-sticky-container>
         <div class="top-bar" data-sticky data-top-anchor="150" data-sticky-on="small">
             <div id="large-menu" class="hide-for-small-only">
-                <div class="row align-middle">
+                <div class="row align-middle align-center">
                     <div class="shrink columns">
                         {% if SP.ACF.get_field('logo', 'option') %}
                             <a href="{{ url }}" class="home"><img src="{{ SP.ACF.get_field('logo', 'option').url }}" alt=""></a>
                         {% endif %}
                     </div>
-                    <div class="columns">
+                    <div class="shrink large-expand columns">
                         <ul class="dropdown menu" data-dropdown-menu>
-                            <li>
-                                <a href="{{ url }}/forums">
-                                    <i class="fa fa-users"></i>
-                                    <span>Forums</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://shop.maker.tv/collections/aphmau" target="blank">
-                                    <i class="fa fa-shopping-bag"></i>
-                                    <span>Shop</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ url }}/videos">
-                                    <i class="fa fa-play"></i>
-                                    <span>Videos</span>
-                                </a>
-                            </li>
+                            {% for link in SP.ACF.get_field('menu', 'option') %}
+                                <li>
+                                    <a href="{% if link.type == "internal" %}{{ link.page }}{% else %}{{ link.url }}{% endif %}">
+                                        <i class="fa {{ link.icon }}"></i>
+                                        <span>{{ link.text }}</span>
+                                    </a>
+                                </li>
+                            {% endfor %}
                         </ul>
                     </div>
                     <div class="shrink columns">
@@ -95,16 +85,16 @@
             </div>
             <div class="small-menu hide-for-medium" id="small-menu">
                 <div class="">
-                    {{
-                        SP.WordPRess.menu({
-                            'container': false,
-                            'theme_location': "primary_menu",
-                            'items_wrap': '<ul id="%1$s" class="%2$s" data-accordion-menu>%3$s</ul>',
-                            'walker': walkers.accordion,
-                            'menu_id': '',
-                            'menu_class': 'vertical menu'
-                        })
-                    }}
+                    <ul class="vertical menu">
+                        {% for link in SP.ACF.get_field('menu', 'option') %}
+                            <li>
+                                <a href="{% if link.type == "internal" %}{{ link.page }}{% else %}{{ link.url }}{% endif %}">
+                                    <i class="fa {{ link.icon }}"></i>
+                                    {{ link.text }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
                 </div>
             </div>
         </div>
