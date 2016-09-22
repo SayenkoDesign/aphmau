@@ -16,5 +16,5 @@ while(have_posts()) {
     $data['teasers'][] = $twig->render('teasers/video.html.twig', $data);
 }
 
-$data['title'] = single_cat_title('', false);
+$data['title'] = 'Category: '.single_cat_title('', false);
 echo $twig->render('videos.html.twig', $data);

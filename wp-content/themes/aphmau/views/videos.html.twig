@@ -2,7 +2,7 @@
 {% block content %}
     <div class="row two-column">
         <div class="small-12 medium-8 large-9 columns small-order-2 medium-order-1">
-            <h1>{% if title is defined and title %}Category: {{ title }}{% else %}Videos{% endif %}</h1>
+            <h1>{% if title is defined and title %}{{ title }}{% else %}Videos{% endif %}</h1>
             {{ SP.WordPress.content() }}
             <div class="row small-up-1 medium-up-2 video-teasers">
                 {% for teaser in teasers %}

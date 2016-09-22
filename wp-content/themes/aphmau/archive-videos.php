@@ -16,4 +16,7 @@ while(have_posts()) {
     $data['teasers'][] = $twig->render('teasers/video.html.twig', $data);
 }
 
+if(is_search()) {
+    $data['title'] = 'Search Results';
+}
 echo $twig->render('videos.html.twig', $data);

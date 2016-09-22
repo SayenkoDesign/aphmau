@@ -73,12 +73,15 @@
                                 <li><a href="{{ SP.ACF.get_field('youtube', 'option') }}" target="_blank"><i class="fa fa-youtube"></i></a></li>
                             {% endif %}
                         </ul>
-                        <div class="input-group">
-                            <input class="input-group-field" type="text">
-                            <div class="input-group-button">
-                                <button type="submit" class="secondary button"><i class="fa fa-search"></i> Search</button>
+                        <form role="search" method="get" id="searchform" class="searchform" action="{{ SP.WordPress.url( '/' ) }}">
+                            <input type="hidden" name="post_type" value="videos" />
+                            <div class="input-group">
+                                <input class="input-group-field" type="text" name="s" placeholder="Search Videos">
+                                <div class="input-group-button">
+                                    <button type="submit" class="secondary button"><i class="fa fa-search"></i></button>
+                                </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
