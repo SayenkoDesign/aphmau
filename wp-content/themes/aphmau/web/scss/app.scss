@@ -8,6 +8,7 @@
 @import "partials/slider";
 @import "partials/videos";
 @import "partials/video-teasers";
+@import "partials/gallery";
 
 input::-webkit-input-placeholder {
   color: $body-font-color;
@@ -132,5 +133,21 @@ footer.footer {
     @include breakpoint(medium) {
       font-size: 8rem;
     }
+  }
+}
+
+// masonry
+.masonry {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.brick, .brick-sizer {
+  padding: 15px;
+  width: 100%;
+  @include breakpoint(medium) {
+    width: 50%;
+  }
+  @include breakpoint(large) {
+    width: 33.33%;
   }
 }

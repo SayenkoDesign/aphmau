@@ -20,10 +20,10 @@ jQuery(function() {
         speed: 1000
     });
 
-    var masonry = jQuery('.videos .masonry');
+    var masonry = jQuery('.masonry');
     masonry.isotope({
         itemSelector: '.brick',
-        layoutMode: 'fitRows'
+        //layoutMode: 'fitRows',
     });
     jQuery('.videos .button-group a').on('click', function(){
         var filter;
@@ -33,5 +33,8 @@ jQuery(function() {
             filter = '.category-' + jQuery(this).attr('data-filter');
         }
         masonry.isotope({ filter: filter });
-    })
+    });
+    masonry.imagesLoaded().progress( function() {
+        masonry.isotope('layout');
+    });
 });

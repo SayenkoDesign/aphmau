@@ -1,0 +1,11 @@
+<section class="gallery">
+    <div class="row column">
+        <div class="masonry">
+        {% for image in SP.ACF.get_sub_field('images') %}
+            <div class="brick">
+                <a href="{{ image.image.url }}" class="fancybox"><img src="{{ image.image.url }}" alt="{{ image.image.title }}"></a>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>

@@ -25,6 +25,7 @@ var options = {
     scripts: {
         src: [
             'web/libs/foundation-sites/dist/foundation.js',
+            'web/libs/imagesloaded/imagesloaded.pkgd.min.js',
             'web/libs/isotope/dist/isotope.pkgd.js',
             'web/libs/fancybox/source/jquery.fancybox.js',
             'web/libs/fancybox/source/helpers/jquery.fancybox-media.js',

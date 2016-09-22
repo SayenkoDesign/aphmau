@@ -20,6 +20,7 @@
     "foundation-sites": "^6.2.3",
     "slick-carousel": "^1.6.0",
     "fancybox": "^2.1.5",
-    "isotope": "^3.0.1"
+    "isotope": "^3.0.1",
+    "imagesloaded": "^4.1.1"
   }
 }
