@@ -79,6 +79,14 @@ body .flare[data-flare-skin="modern"] .flare-total > strong {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 1) !important;
 }
 
+// pagination
+.pagination {
+  text-align: center;
+}
+.pagination a, .pagination button {
+  display: inline-block;
+}
+
 footer.footer {
   background-color: $dark-gray;
   color: $light-gray;

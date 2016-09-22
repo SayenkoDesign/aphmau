@@ -19,10 +19,12 @@
     }
   }
   .centered-content {
+    text-align: center;
     z-index: 1;
     padding: $global-padding;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    width: 100%;
   }
 }

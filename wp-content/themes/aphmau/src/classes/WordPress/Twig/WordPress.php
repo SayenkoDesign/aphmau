@@ -176,4 +176,9 @@ class WordPress
     {
         return wp_logout_url();
     }
+
+    public function pagination($args = '')
+    {
+        return paginate_links($args);
+    }
 }
