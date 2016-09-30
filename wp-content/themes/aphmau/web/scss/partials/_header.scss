@@ -74,6 +74,11 @@
     margin: 0 auto;
     .home {
       float: left;
+      padding-left: 0;
+      margin-left: 0;
+    }
+    > .row {
+      justify-content: space-between;
     }
   }
   .small-menu-bar {

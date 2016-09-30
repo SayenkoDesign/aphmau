@@ -169,8 +169,8 @@
         },
         {
             "key": "field_57d9c7d4d5986",
-            "label": "Alt Logo",
-            "name": "alt_logo",
+            "label": "Login Logo",
+            "name": "login_logo",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -416,5 +416,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1474567409
+    "modified": 1474927623
 }

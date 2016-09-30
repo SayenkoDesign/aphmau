@@ -1,0 +1,95 @@
+// breadcrumb
+#bbpress-forums .bbp-breadcrumb {
+  font-size:1rem;
+  a {
+    text-decoration: underline;
+  }
+}
+
+// search
+#bbp_search {
+  margin: 0;
+}
+#bbp_search_submit {
+  margin: 0 0 5px -4px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+// notices
+div.bbp-template-notice {
+  background-color: $warning-color;
+  border-color: rgba($black, .15);
+  padding: 0.5rem;
+  &.info {
+    background-color: $primary-color;
+    color: $white;
+    a {
+      color: $white;
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  img.avatar {
+    width: 28px !important;
+    border: none !important;
+    margin: 0 !important;
+  }
+}
+
+// comment field
+#bbpress-forums fieldset.bbp-form {
+  border: none;
+  padding: 0;
+}
+
+// the tables
+#bbpress-forums li.bbp-header, #bbpress-forums li.bbp-footer {
+  background-color: $primary-color;
+  color: $white;
+  border-color: rgba($black, .15);
+  a {
+    color: $white;
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+#bbpress-forums div.bbp-forum-header, #bbpress-forums div.bbp-topic-header, #bbpress-forums div.bbp-reply-header {
+  background-color: scale-color($primary-color, $lightness: 15%);
+  color: $white;
+  border: none;
+  a {
+    color: $white;
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+#bbpress-forums div.odd, #bbpress-forums ul.odd,
+#bbpress-forums div.even, #bbpress-forums ul.even {
+  background-color: $secondary-color;
+}
+#bbpress-forums ul.bbp-lead-topic, #bbpress-forums ul.bbp-topics, #bbpress-forums ul.bbp-forums, #bbpress-forums ul.bbp-replies, #bbpress-forums ul.bbp-search-results {
+  border: none;
+}
+#bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic {
+  border-color: $primary-color;
+}
+
+// more avatars
+#bbpress-forums p.bbp-topic-meta img.avatar, #bbpress-forums ul.bbp-reply-revision-log img.avatar, #bbpress-forums ul.bbp-topic-revision-log img.avatar, #bbpress-forums div.bbp-template-notice img.avatar, #bbpress-forums .widget_display_topics img.avatar, #bbpress-forums .widget_display_replies img.avatar {
+  width: 28px;
+  border: none;
+  margin: 0;
+}
+
+// profile
+#bbpress-forums #bbp-single-user-details #bbp-user-navigation li.current a {
+  background-color: $primary-color;
+  color: $white;
+}

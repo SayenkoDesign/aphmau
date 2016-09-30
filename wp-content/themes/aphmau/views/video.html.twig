@@ -1,12 +1,14 @@
 {% extends 'basic.html.twig' %}
 {% block content %}
-    <div class="row column">
-        <main class="content">
-            <h1>{{ SP.WordPress.title() }}</h1>
-            <div class="embed-container">
-                {{ SP.ACF.get_field('video') }}
-            </div>
-            {{ SP.WordPress.content() }}
-        </main>
+    <div class="row small-collapse">
+        <div class="small-12 columns">
+            <main class="content">
+                <h1>{{ SP.WordPress.title() }}</h1>
+                <div class="embed-container">
+                    {{ SP.ACF.get_field('video') }}
+                </div>
+                {{ SP.WordPress.content() }}
+            </main>
+        </div>
     </div>
 {% endblock %}

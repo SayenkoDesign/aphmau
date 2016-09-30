@@ -20,11 +20,60 @@
             "max": "",
             "layouts": [
                 {
+                    "key": "57e9a003ca6c3",
+                    "name": "content",
+                    "label": "Content",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_57e9a00bca6c4",
+                            "label": "Content",
+                            "name": "content",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
                     "key": "57e443e233511",
                     "name": "gallery",
                     "label": "Gallery",
                     "display": "block",
                     "sub_fields": [
+                        {
+                            "key": "field_57e585caf532a",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "readonly": 0,
+                            "disabled": 0
+                        },
                         {
                             "key": "field_57e4449233512",
                             "label": "Images",
@@ -281,5 +330,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1474578157
+    "modified": 1474928672
 }

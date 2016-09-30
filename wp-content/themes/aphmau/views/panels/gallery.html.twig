@@ -1,5 +1,8 @@
 <section class="gallery">
     <div class="row column">
+        {% if SP.ACF.get_sub_field('title') %}
+            <h2>{{ SP.ACF.get_sub_field('title') }}</h2>
+        {% endif %}
         <div class="masonry">
         {% for image in SP.ACF.get_sub_field('images') %}
             <div class="brick">

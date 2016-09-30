@@ -1,6 +1,8 @@
 <style type="text/css">
     h1 a {
-    {% if SP.ACF.get_field('logo', 'option') %}
+    {% if SP.ACF.get_field('login_logo', 'option') %}
+        background-image: url('{{ SP.ACF.get_field('login_logo', 'option').url }}') !important;
+    {% elseif SP.ACF.get_field('logo', 'option') %}
         background-image: url('{{ SP.ACF.get_field('logo', 'option').url }}') !important;
     {% endif %}
         background-size: contain !important;

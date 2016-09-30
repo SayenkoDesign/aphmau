@@ -16,6 +16,7 @@
                 {% if SP.WordPress.isLoggedIn() %}
                     <li><a href="{{ SP.WordPress.getLogoutURL() }}">Log Out</a></li>
                 {% else %}
+                    <li><a href="{{ url }}/register">Register</a></li>
                     <li><a href="{{ SP.WordPress.getLoginURL() }}">Log In</a></li>
                 {% endif %}
             </ul>
@@ -24,14 +25,12 @@
     <header data-sticky-container>
         <div class="top-bar" data-sticky data-top-anchor="150" data-sticky-on="small">
             <div id="large-menu" class="hide-for-small-only">
-                <div class="row align-middle align-center">
+                <div class="row align-middle large-collapse">
                     <div class="shrink columns">
-                        {% if SP.ACF.get_field('logo', 'option') %}
-                            <a href="{{ url }}" class="home"><img src="{{ SP.ACF.get_field('logo', 'option').url }}" alt=""></a>
-                        {% endif %}
-                    </div>
-                    <div class="shrink large-expand columns">
                         <ul class="dropdown menu" data-dropdown-menu>
+                            {% if SP.ACF.get_field('logo', 'option') %}
+                                <li><a href="{{ url }}" class="home"><img src="{{ SP.ACF.get_field('logo', 'option').url }}" alt=""></a></li>
+                            {% endif %}
                             {% for link in SP.ACF.get_field('menu', 'option') %}
                                 <li>
                                     <a href="{% if link.type == "internal" %}{{ link.page }}{% else %}{{ link.url }}{% endif %}">
