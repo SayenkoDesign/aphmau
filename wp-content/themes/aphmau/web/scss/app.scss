@@ -60,6 +60,14 @@ main.content, article.one-column {
   }
 }
 
+// forms
+[type="text"]:focus, [type="password"]:focus, [type="date"]:focus,
+[type="datetime"]:focus, [type="datetime-local"]:focus, [type="month"]:focus,
+[type="week"]:focus, [type="email"]:focus, [type="number"]:focus, [type="search"]:focus,
+[type="tel"]:focus, [type="time"]:focus, [type="url"]:focus, [type="color"]:focus, textarea:focus {
+
+}
+
 // responsive embedes
 .embed-container {
   position: relative;
@@ -85,7 +93,7 @@ body .flare {
   background-color: $secondary-color;
 }
 body .flare[data-flare-skin="modern"] .flare-total {
-  font-family: $body-font-family !important;
+  font-family: $header-font-family !important;
 }
 body .flare[data-flare-skin="modern"] .flare-total > strong {
   font-family: $header-font-family !important;
@@ -151,4 +159,35 @@ footer.footer {
   @include breakpoint(large) {
     width: 33.33%;
   }
+}
+
+// bbpress
+#bbpress-forums #bbp-your-profile fieldset label[for] {
+  float: none;
+  width: auto;
+}
+#bbpress-forums #bbp-your-profile fieldset input, #bbpress-forums #bbp-your-profile fieldset textarea {
+  float: none;
+  width: 100%;
+}
+#bbpress-forums #bbp-your-profile fieldset fieldset.password {
+  float: none;
+  width: 100%;
+  display: block;
+}
+#bbpress-forums #bbp-your-profile fieldset {
+  padding: 0;
+  margin-bottom: $global-margin*2;
+}
+#pass-strength-result {
+  display: none;
+}
+#bbpress-forums #bbp-your-profile fieldset fieldset.password span.description {
+  margin-bottom: $global-margin;
+}
+.bbp-form.avatar img {
+  margin-bottom: $global-margin;
+}
+#bbpress-forums #bbp-your-profile fieldset span.description {
+  width: 100%;
 }

@@ -21,8 +21,8 @@ if ( ! current_user_can( 'customize' ) ) {
 }
 
 wp_reset_vars( array( 'url', 'return', 'autofocus' ) );
-if ( ! empty( $url ) ) {
-	$wp_customize->set_preview_url( wp_unslash( $url ) );
+if ( ! empty( $account_url ) ) {
+	$wp_customize->set_preview_url( wp_unslash( $account_url ) );
 }
 if ( ! empty( $return ) ) {
 	$wp_customize->set_return_url( wp_unslash( $return ) );

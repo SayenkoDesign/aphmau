@@ -14,6 +14,7 @@
         <div class="row column">
             <ul class="horizontal menu">
                 {% if SP.WordPress.isLoggedIn() %}
+                    <li><a href="{{ my_account }}">My Profile</a></li>
                     <li><a href="{{ SP.WordPress.getLogoutURL() }}">Log Out</a></li>
                 {% else %}
                     <li><a href="{{ url }}/register">Register</a></li>
