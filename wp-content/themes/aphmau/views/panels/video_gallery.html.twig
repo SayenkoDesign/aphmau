@@ -19,7 +19,13 @@
                         category-{{ term.term_id }}
                     {% endfor %}
                 ">
-                    <a class="fancybox-media" href="{{ SP.ACF.get_field('video', video.video, false, false) }}">
+                    <a class="fancybox hide-for-small-only" href="{{ SP.ACF.get_field('video', video.video, false, false) }}">
+                        {{ SP.WordPress.featuredImage(video.video.ID, 'teaser') }}
+                        <div class="centered-content">
+                            <h5>{{ SP.WordPress.title(video.video.ID) }}</h5>
+                        </div>
+                    </a>
+                    <a class="hide-for-medium" href="{{ SP.WordPress.URL(video.video.ID) }}">
                         {{ SP.WordPress.featuredImage(video.video.ID, 'teaser') }}
                         <div class="centered-content">
                             <h5>{{ SP.WordPress.title(video.video.ID) }}</h5>
