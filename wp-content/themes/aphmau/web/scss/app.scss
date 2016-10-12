@@ -5,11 +5,13 @@
 @import "supertheme";
 
 @import "partials/header";
+@import "partials/footer";
 @import "partials/slider";
 @import "partials/videos";
 @import "partials/video-teasers";
 @import "partials/gallery";
 @import "partials/forums";
+@import "partials/layouts";
 
 input::-webkit-input-placeholder {
   color: $body-font-color;
@@ -27,37 +29,29 @@ input:-ms-input-placeholder {
   color: $body-font-color;
 }
 
-// one column
-main.content, article.one-column {
-  background-color: $secondary-color;
-  padding: $global-padding*2;
+
+.shadow {
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.5);
+  max-width: $global-width;
+  margin: 0 auto $global-margin*2 auto;
+}
+
+.bbp-login-form {
+  @include breakpoint(medium) {
+    margin: 0 auto;
+    max-width: 50%;
+  }
+  @include breakpoint(large) {
+    max-width: 50%;
+  }
+  input[type=submit] {
+    @include button(false, $primary-color);
+  }
 }
 
 // pagination
 .pagination a:hover, .pagination button:hover {
   text-decoration: underline;
-}
-
-// two column
-.two-column {
-  .medium-4, .medium-8 {
-    padding-top: $global-padding*2;
-    padding-bottom: $global-padding*2;
-  }
-  .medium-4 {
-    background-color: $primary-color;
-    color: $white;
-    a {
-      color: $white;
-      padding: 0.5rem 0;
-      &:hover {
-        color: $accent-color;
-      }
-    }
-  }
-  .medium-8 {
-    background-color: $secondary-color;
-  }
 }
 
 // forms
@@ -119,22 +113,6 @@ body .flare[data-flare-skin="modern"] .flare-total > strong {
   display: inline-block;
 }
 
-// footer
-footer.footer {
-  background-color: $dark-gray;
-  color: $light-gray;
-  padding: $global-padding;
-  p:last-child {
-    margin: 0;
-  }
-  a {
-    color: $white;
-    &:hover {
-      color: $accent-color;
-    }
-  }
-}
-
 // 404
 .not-found {
   h1 {
@@ -189,5 +167,8 @@ footer.footer {
   margin-bottom: $global-margin;
 }
 #bbpress-forums #bbp-your-profile fieldset span.description {
+  width: 100%;
+}
+#bbpress-forums ul.bbp-lead-topic, #bbpress-forums ul.bbp-topics, #bbpress-forums ul.bbp-forums, #bbpress-forums ul.bbp-replies, #bbpress-forums ul.bbp-search-results {
   width: 100%;
 }

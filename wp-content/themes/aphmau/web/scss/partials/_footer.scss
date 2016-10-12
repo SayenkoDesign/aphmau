@@ -1,0 +1,15 @@
+// footer
+footer.footer {
+  background-color: $dark-gray;
+  color: $light-gray;
+  padding: $global-padding;
+  p:last-child {
+    margin: 0;
+  }
+  a {
+    color: $white;
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}

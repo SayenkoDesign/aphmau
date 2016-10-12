@@ -1,0 +1,27 @@
+// one column
+main.content, article.one-column {
+  background-color: $secondary-color;
+  padding: $global-padding*2;
+}
+
+// two column
+.two-column {
+  .medium-4, .medium-8 {
+    padding-top: $global-padding*2;
+    padding-bottom: $global-padding*2;
+  }
+  .medium-4 {
+    background-color: $primary-color;
+    color: $white;
+    a {
+      color: $white;
+      padding: 0.5rem 0;
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+  .medium-8 {
+    background-color: $secondary-color;
+  }
+}
