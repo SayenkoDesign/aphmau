@@ -24,3 +24,4 @@ ob_start();
 bbp_user_profile_url(bbp_get_current_user_id());
 $account_url = ob_get_clean();
 $twig->addGlobal('my_account', $account_url);
+$twig->addGlobal('login', wp_login_url());
