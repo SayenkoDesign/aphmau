@@ -16,6 +16,12 @@ jQuery(function() {
         autoplaySpeed: 5000,
         speed: 1000
     });
+    jQuery('.slick-gallery').slick({
+        arrows: true,
+        dots: false,
+        lazyLoad: 'ondemand',
+        autoplay: false
+    });
 
     var masonry = jQuery('.masonry');
     masonry.isotope({

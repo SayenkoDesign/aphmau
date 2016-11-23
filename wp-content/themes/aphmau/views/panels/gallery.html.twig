@@ -3,12 +3,15 @@
         {% if SP.ACF.get_sub_field('title') %}
             <h2>{{ SP.ACF.get_sub_field('title') }}</h2>
         {% endif %}
-        <div class="masonry">
-        {% for image in SP.ACF.get_sub_field('images') %}
-            <div class="brick">
-                <a href="{{ image.image.url }}" class="fancybox"><img src="{{ image.image.url }}" alt="{{ image.image.title }}"></a>
-            </div>
-        {% endfor %}
+        <div class="slick-gallery">
+            {% for image in SP.ACF.get_sub_field('images') %}
+                <div>
+                    <a href="{{ image.image.url }}" class="fancybox"><img src="{{ image.image.url }}" alt="{{ image.image.title }}"></a>
+                    <button class="slick-prev slick-arrow"></button>
+                    <button class="slick-next slick-arrow"></button>
+                    {{ image.description }}
+                </div>
+            {% endfor %}
         </div>
     </div>
 </section>

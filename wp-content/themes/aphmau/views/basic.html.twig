@@ -35,7 +35,7 @@
                             {% for link in SP.ACF.get_field('menu', 'option') %}
                                 <li>
                                     <a href="{% if link.type == "internal" %}{{ link.page }}{% else %}{{ link.url }}{% endif %}" target="{{ link.target }}">
-                                        <i class="fa {{ link.icon }}"></i>
+                                        <img src="{{ link.icon.url }}" />
                                         <span>{{ link.text }}</span>
                                     </a>
                                 </li>
@@ -103,7 +103,7 @@
 {% endblock %}
 {% block content %}
     <div class="row small-collapse">
-        <div class="small-12 columns">
+        <div class="small-12 columns main-content">
             {% if panels is defined and panels %}
                 {% for panel in panels %}
                     {{ panel | raw }}

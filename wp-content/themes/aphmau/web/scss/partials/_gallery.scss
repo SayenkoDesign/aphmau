@@ -1,4 +1,37 @@
 .gallery {
   background-color: $secondary-color;
   padding: $global-padding*2;
+  a.fancybox {
+    margin-bottom: $global-margin;
+    display: block;
+  }
+  .slick-arrow {
+    position: absolute;
+    top: rem-calc(128px);
+    width: 45px;
+    height: 128px;
+    z-index: 5;
+    &::before {
+      color: $white;
+    }
+    &:hover::before {
+      color: map-get($foundation-palette, accent);
+    }
+  }
+  .slick-prev {
+    left: rem-calc(32px);
+    &::before {
+      font-size: rem-calc(128px);
+      font-family: "FontAwesome";
+      content: "\f0d9";
+    }
+  }
+  .slick-next{
+    right: rem-calc(32px);
+    &::before {
+      font-size: rem-calc(128px);
+      font-family: "FontAwesome";
+      content: "\f0da";
+    }
+  }
 }

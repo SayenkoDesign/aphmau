@@ -19,6 +19,7 @@
 .sticky-container {
   position: absolute;
   width: 100%;
+  z-index: 10;
 }
 .top-bar {
   background-color: $primary-color;
@@ -33,14 +34,23 @@
       text-transform: uppercase;
       flex-flow: column;
       text-align: center;
-      font-size: rem-calc(14px);
-      padding: $global-padding/2;
+      font-size: rem-calc(12px);
+      padding: 0.65rem;
       &:hover {
         color: $accent-color;
       }
       @include breakpoint(large) {
-        padding: $global-padding;
-        margin: 0 1rem;
+        font-size: rem-calc(14px);
+        padding: $global-padding/2;
+        margin: 0 0.5rem;
+      }
+      img {
+        max-width: rem-calc(40px);
+        margin: 0 auto $global-margin;
+        @include breakpoint(large) {
+          max-width: rem-calc(64px);
+          margin-bottom: $global-margin;
+        }
       }
       i {
         @include breakpoint(medium) {
@@ -64,9 +74,12 @@
       margin: 0;
       padding: 0.5rem;
       i {
-        font-size: rem-calc(24px);
+        font-size: rem-calc(20px);
       }
     }
+  }
+  input {
+    max-width: 170px;
   }
   #large-menu {
     width: 100%;
@@ -76,6 +89,12 @@
       float: left;
       padding-left: 0;
       margin-left: 0;
+      img {
+        max-width: rem-calc(150px);
+        @include breakpoint(large) {
+          max-width: none;
+        }
+      }
     }
     > .row {
       justify-content: space-between;
