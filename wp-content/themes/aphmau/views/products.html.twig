@@ -1,0 +1,17 @@
+{% extends 'basic.html.twig' %}
+{% block content %}
+    <div class="row small-collapse">
+        <div class="small-12 columns">
+            <main class="content">
+                <h1>{{ title }}</h1>
+                <div class="row small-up-2 large-up-4">
+                    {% for product in products %}
+                        <div class="column product-teaser">
+                            {{ product }}
+                        </div>
+                    {% endfor %}
+                </div>
+            </main>
+        </div>
+    </div>
+{% endblock %}
