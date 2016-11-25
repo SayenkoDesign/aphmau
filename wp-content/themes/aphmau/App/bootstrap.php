@@ -23,5 +23,10 @@ $twig->addGlobal('walkers', [
 ob_start();
 bbp_user_profile_url(bbp_get_current_user_id());
 $account_url = ob_get_clean();
-$twig->addGlobal('my_account', $account_url);
+$twig->addGlobal('my_profile', $account_url);
+$twig->addGlobal('avatar', get_avatar(get_current_user_id(), 32));
+$twig->addGlobal('my_cart', wc_get_cart_url());
+$twig->addGlobal('my_account', get_permalink(get_option('woocommerce_myaccount_page_id')));
 $twig->addGlobal('login', wp_login_url());
+$twig->addGlobal('woo', WC());
+

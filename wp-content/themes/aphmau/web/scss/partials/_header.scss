@@ -15,6 +15,19 @@
       color: $accent-color;
     }
   }
+  .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border-color: $white transparent transparent;
+  }
+  .dropdown {
+    img {
+      border-radius: 100%;
+    }
+    .submenu {
+      background-color: $dark-gray;
+      border: none;
+      z-index: 15;
+    }
+  }
 }
 .sticky-container {
   position: absolute;

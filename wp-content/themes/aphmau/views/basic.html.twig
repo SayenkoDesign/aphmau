@@ -12,10 +12,17 @@
 {% block header %}
     <header class="user-bar">
         <div class="row column">
-            <ul class="horizontal menu">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li><a href="{{ my_cart }}">Cart {% if woo.cart.get_cart_contents_count() %}&nbsp; <span class="accent badge">{{ woo.cart.get_cart_contents_count() }}</span>{% endif %}</a></li>
                 {% if SP.WordPress.isLoggedIn() %}
-                    <li><a href="{{ my_account }}">My Profile</a></li>
-                    <li><a href="{{ SP.WordPress.getLogoutURL() }}">Log Out</a></li>
+                    <li>
+                        <a href="#">{{ avatar }}</a>
+                        <ul class="menu">
+                            <li><a href="{{ my_profile }}">Profile</a></li>
+                            <li><a href="{{ my_account }}">Account</a></li>
+                            <li><a href="{{ SP.WordPress.getLogoutURL() }}">Log Out</a></li>
+                        </ul>
+                    </li>
                 {% else %}
                     <li><a href="{{ url }}/register">Register</a></li>
                     <li><a href="{{ login }}">Log In</a></li>

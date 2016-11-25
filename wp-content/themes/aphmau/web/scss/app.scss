@@ -12,6 +12,7 @@
 @import "partials/gallery";
 @import "partials/forums";
 @import "partials/layouts";
+@import "partials/woocommerce";
 
 input::-webkit-input-placeholder {
   color: $body-font-color;
@@ -27,6 +28,11 @@ input::-moz-placeholder {  /* Firefox 19+ */
 
 input:-ms-input-placeholder {
   color: $body-font-color;
+}
+
+.badge.accent {
+  color: $white;
+  font-weight: bold;
 }
 
 
@@ -52,7 +58,9 @@ input:-ms-input-placeholder {
     @include button(false, $primary-color);
   }
 }
-
+#bbpress-forums #bbp-single-user-details #bbp-user-navigation li.current a {
+  opacity: 1;
+}
 // pagination
 .pagination a:hover, .pagination button:hover {
   text-decoration: underline;
