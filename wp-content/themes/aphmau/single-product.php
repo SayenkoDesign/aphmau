@@ -4,7 +4,7 @@ $twig = $container->get("twig.environment");
 $data = [];
 
 
-//do_action( 'woocommerce_before_main_content' );
+////do_action( 'woocommerce_before_main_content' );
 while ( have_posts() ) {
     ob_start();
     the_post();

@@ -1,0 +1,16 @@
+.wcst_tracking_info_box
+{
+	display:block;
+    margin-bottom: 2px;
+    padding: 6px;
+}
+.wcst_tracking_info_box:nth-child(even) 
+{
+	background: #ffffff;
+	border: 1px solid #f3f3f3;
+}
+.wcst_tracking_info_box:nth-child(odd)
+{
+	background: #e4e4e4;
+	border: 1px solid #f3f3f3;
+}

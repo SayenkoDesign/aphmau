@@ -1,0 +1,72 @@
+.button.wcst-remove-shipping
+{
+	color:white;
+	margin-bottom:15px;
+	background-color:#D90000;
+	border-color: #D90000;
+} 
+.button.wcst-remove-shipping:hover
+{
+	color:white;
+	background-color:#660000;
+	border-color: #660000;
+} 
+.form-row input[type="text"].wcst_input_date,
+.form-row input[type="text"].wcst_input_time
+{
+	width:48%;
+	margin-left: 2px;
+}
+.wcst_extra_delivery_row  select.picker__select--year, .wcst_extra_delivery_row select.picker__select--month
+{
+	width: 40%;
+	margin-top: 1px;
+}
+/*Calendar */
+.picker__weekday
+{
+	color:#dedede;
+	font-weight: bold;
+}
+h4#wcst_additional_tracking_boxes_title 
+{
+  margin-bottom: 2px;
+}
+.wcst_shipping_info_box .totals 
+{
+    margin-top: 0;
+}
+.wcst_tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.wcst_tooltip .wcst_tooltiptext {
+    visibility: hidden;
+    width: 240px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 10px 15px 5px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -150px;
+	font-size: 14px;
+}
+
+.wcst_tooltip:hover .wcst_tooltiptext {
+    visibility: visible;
+}
+
+.wcst_shipping_info_box
+{
+	border: 1px solid #e6e6e6;
+	padding: 10px;
+	margin-bottom: 2px;
+}

@@ -1,0 +1,20 @@
+{% extends 'basic.html.twig' %}
+{% block content %}
+
+<div class="row small-collapse">
+    <div class="small-12 columns">
+        {% if panels is defined and panels %}
+            {% for panel in panels %}
+                {{ panel | raw }}
+            {% endfor %}
+        {% endif %}
+        <main class="content row align-center">
+            <div class="small-12 medium-6 large-4 columns">
+                <h1>{{ SP.WordPress.title() }}</h1>
+                {{ SP.WordPress.content() }}
+                {{ login }}
+            </div>
+        </main>
+    </div>
+</div>
+{% endblock %}

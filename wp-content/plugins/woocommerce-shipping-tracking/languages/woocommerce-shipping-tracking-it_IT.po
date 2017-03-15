@@ -1,0 +1,4315 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Shipping Tracking\n"
+"POT-Creation-Date: 2016-12-12 12:40+0100\n"
+"PO-Revision-Date: 2016-12-12 12:40+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/acf/acf.php:60
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: classes/acf/acf.php:283 classes/acf/admin/admin.php:117
+msgid "Field Groups"
+msgstr ""
+
+#: classes/acf/acf.php:284
+msgid "Field Group"
+msgstr ""
+
+#: classes/acf/acf.php:285 classes/acf/acf.php:317
+#: classes/acf/admin/admin.php:118
+#: classes/acf/pro/fields/flexible-content.php:576
+msgid "Add New"
+msgstr ""
+
+#: classes/acf/acf.php:286
+msgid "Add New Field Group"
+msgstr ""
+
+#: classes/acf/acf.php:287
+msgid "Edit Field Group"
+msgstr ""
+
+#: classes/acf/acf.php:288
+msgid "New Field Group"
+msgstr ""
+
+#: classes/acf/acf.php:289
+msgid "View Field Group"
+msgstr ""
+
+#: classes/acf/acf.php:290
+msgid "Search Field Groups"
+msgstr ""
+
+#: classes/acf/acf.php:291
+msgid "No Field Groups found"
+msgstr ""
+
+#: classes/acf/acf.php:292
+msgid "No Field Groups found in Trash"
+msgstr ""
+
+#: classes/acf/acf.php:315 classes/acf/admin/field-group.php:182
+#: classes/acf/admin/field-group.php:280
+#: classes/acf/admin/field-groups.php:510 classes/acf/pro/fields/clone.php:854
+msgid "Fields"
+msgstr ""
+
+#: classes/acf/acf.php:316
+msgid "Field"
+msgstr ""
+
+#: classes/acf/acf.php:318
+msgid "Add New Field"
+msgstr ""
+
+#: classes/acf/acf.php:319
+msgid "Edit Field"
+msgstr ""
+
+#: classes/acf/acf.php:320 classes/acf/admin/views/field-group-fields.php:51
+#: classes/acf/admin/views/settings-info.php:111
+msgid "New Field"
+msgstr ""
+
+#: classes/acf/acf.php:321
+msgid "View Field"
+msgstr ""
+
+#: classes/acf/acf.php:322
+msgid "Search Fields"
+msgstr ""
+
+#: classes/acf/acf.php:323
+msgid "No Fields found"
+msgstr ""
+
+#: classes/acf/acf.php:324
+msgid "No Fields found in Trash"
+msgstr ""
+
+#: classes/acf/acf.php:363 classes/acf/admin/field-group.php:395
+#: classes/acf/admin/field-groups.php:567
+msgid "Inactive"
+msgstr ""
+
+#: classes/acf/acf.php:368
+#, php-format
+msgid "Inactive <span class=\"count\">(%s)</span>"
+msgid_plural "Inactive <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/acf/admin/admin.php:113
+#: classes/acf/admin/views/field-group-options.php:114
+msgid "Custom Fields"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:68 classes/acf/admin/field-group.php:69
+#: classes/acf/admin/field-group.php:71
+msgid "Field group updated."
+msgstr ""
+
+#: classes/acf/admin/field-group.php:70
+msgid "Field group deleted."
+msgstr ""
+
+#: classes/acf/admin/field-group.php:73
+msgid "Field group published."
+msgstr ""
+
+#: classes/acf/admin/field-group.php:74
+msgid "Field group saved."
+msgstr ""
+
+#: classes/acf/admin/field-group.php:75
+msgid "Field group submitted."
+msgstr ""
+
+#: classes/acf/admin/field-group.php:76
+msgid "Field group scheduled for."
+msgstr ""
+
+#: classes/acf/admin/field-group.php:77
+msgid "Field group draft updated."
+msgstr ""
+
+#: classes/acf/admin/field-group.php:183
+msgid "Location"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:184
+msgid "Settings"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:274
+msgid "Move to trash. Are you sure?"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:275
+msgid "checked"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:276
+msgid "No toggle fields available"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:277
+msgid "Field group title is required"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:278
+#: classes/acf/api/api-field-group.php:651
+msgid "copy"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:279
+#: classes/acf/admin/views/field-group-field-conditional-logic.php:55
+#: classes/acf/admin/views/field-group-field-conditional-logic.php:155
+#: classes/acf/admin/views/field-group-locations.php:68
+#: classes/acf/admin/views/field-group-locations.php:144
+#: classes/acf/api/api-helpers.php:3920
+msgid "or"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:281
+msgid "Parent fields"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:282
+msgid "Sibling fields"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:283
+msgid "Move Custom Field"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:284
+msgid "This field cannot be moved until its changes have been saved"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:285
+msgid "Null"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:286 classes/acf/core/input.php:257
+msgid "The changes you made will be lost if you navigate away from this page"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:287
+msgid "The string \"field_\" may not be used at the start of a field name"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:365
+msgid "Field Keys"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:395
+#: classes/acf/admin/views/field-group-options.php:5
+msgid "Active"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:758 classes/acf/admin/field-group.php:896
+msgid "Default Template"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:875
+msgid "Front Page"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:876
+msgid "Posts Page"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:877
+msgid "Top Level Page (no parent)"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:878
+msgid "Parent Page (has children)"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:879
+msgid "Child Page (has parent)"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:913
+msgid "Logged in"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:914
+msgid "Viewing front end"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:915
+msgid "Viewing back end"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:934
+msgid "Super Admin"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:945 classes/acf/admin/field-group.php:953
+#: classes/acf/admin/field-group.php:967 classes/acf/admin/field-group.php:974
+#: classes/acf/admin/field-group.php:991
+#: classes/acf/admin/field-group.php:1008 classes/acf/fields/file.php:243
+#: classes/acf/fields/image.php:239 classes/acf/pro/fields/gallery.php:676
+msgid "All"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:954
+msgid "Add / Edit"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:955
+msgid "Register"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:1192
+msgid "Move Complete."
+msgstr ""
+
+#: classes/acf/admin/field-group.php:1193
+#, php-format
+msgid "The %s field can now be found in the %s field group"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:1195
+msgid "Close Window"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:1237
+msgid "Please select the destination for this field"
+msgstr ""
+
+#: classes/acf/admin/field-group.php:1244
+msgid "Move Field"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:74
+#, php-format
+msgid "Active <span class=\"count\">(%s)</span>"
+msgid_plural "Active <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/acf/admin/field-groups.php:142
+#, php-format
+msgid "Field group duplicated. %s"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:146
+#, php-format
+msgid "%s field group duplicated."
+msgid_plural "%s field groups duplicated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/acf/admin/field-groups.php:227
+#, php-format
+msgid "Field group synchronised. %s"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:231
+#, php-format
+msgid "%s field group synchronised."
+msgid_plural "%s field groups synchronised."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/acf/admin/field-groups.php:394
+#: classes/acf/admin/field-groups.php:557
+msgid "Sync available"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:507
+#: classes/acf/api/api-template.php:1018
+#: classes/acf/pro/fields/gallery.php:370 classes/admin/WCST_AdminMenu.php:506
+msgid "Title"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:508
+#: classes/acf/admin/views/field-group-options.php:92
+#: classes/acf/admin/views/install-network.php:25
+#: classes/acf/admin/views/install-network.php:33
+#: classes/acf/pro/fields/gallery.php:397 classes/admin/WCST_AdminMenu.php:524
+msgid "Description"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:509
+msgid "Status"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:609
+#: classes/acf/admin/settings-info.php:76
+#: classes/acf/pro/admin/views/settings-updates.php:111
+msgid "Changelog"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:610
+#, php-format
+msgid "See what's new in <a href=\"%s\">version %s</a>."
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:612
+msgid "Resources"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:614
+msgid "Documentation"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:616
+msgid "Getting Started"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:617
+msgid "Field Types"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:618
+msgid "Functions"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:619
+msgid "Actions"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:620
+#: classes/acf/fields/relationship.php:732
+msgid "Filters"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:621
+msgid "Features"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:622
+msgid "How to"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:623
+msgid "Tutorials"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:624
+msgid "FAQ"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:625
+msgid "Support"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:629
+#, php-format
+msgid "Thank you for creating with <a href=\"%s\">ACF</a>."
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:671
+msgid "Duplicate this item"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:671
+#: classes/acf/admin/field-groups.php:687
+#: classes/acf/admin/views/field-group-field.php:59
+#: classes/acf/pro/fields/flexible-content.php:575
+msgid "Duplicate"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:704
+#: classes/acf/fields/google-map.php:132
+#: classes/acf/fields/relationship.php:737
+msgid "Search"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:754
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:762
+msgid "Synchronise field group"
+msgstr ""
+
+#: classes/acf/admin/field-groups.php:762
+#: classes/acf/admin/field-groups.php:779
+msgid "Sync"
+msgstr ""
+
+#: classes/acf/admin/install-network.php:88 classes/acf/admin/install.php:70
+#: classes/acf/admin/install.php:121
+msgid "Upgrade Database"
+msgstr ""
+
+#: classes/acf/admin/install-network.php:140
+msgid "Review sites & upgrade"
+msgstr ""
+
+#: classes/acf/admin/install-updates.php:354
+msgid "Term meta upgrade not possible (termmeta table does not exist)"
+msgstr ""
+
+#: classes/acf/admin/install.php:186
+msgid "Error validating request"
+msgstr ""
+
+#: classes/acf/admin/install.php:209 classes/acf/admin/views/install.php:110
+msgid "No updates available."
+msgstr ""
+
+#: classes/acf/admin/settings-addons.php:51
+#: classes/acf/admin/views/settings-addons.php:9
+msgid "Add-ons"
+msgstr ""
+
+#: classes/acf/admin/settings-addons.php:87
+msgid "<b>Error</b>. Could not load add-ons list"
+msgstr ""
+
+#: classes/acf/admin/settings-info.php:50
+msgid "Info"
+msgstr ""
+
+#: classes/acf/admin/settings-info.php:75
+msgid "What's New"
+msgstr ""
+
+#: classes/acf/admin/settings-tools.php:50
+#: classes/acf/admin/views/settings-tools-export.php:23
+#: classes/acf/admin/views/settings-tools.php:31
+msgid "Tools"
+msgstr ""
+
+#: classes/acf/admin/settings-tools.php:147
+#: classes/acf/admin/settings-tools.php:380
+msgid "No field groups selected"
+msgstr ""
+
+#: classes/acf/admin/settings-tools.php:184 classes/acf/fields/file.php:177
+msgid "No file selected"
+msgstr ""
+
+#: classes/acf/admin/settings-tools.php:197
+msgid "Error uploading file. Please try again"
+msgstr ""
+
+#: classes/acf/admin/settings-tools.php:206
+msgid "Incorrect file type"
+msgstr ""
+
+#: classes/acf/admin/settings-tools.php:223
+msgid "Import file empty"
+msgstr ""
+
+#: classes/acf/admin/settings-tools.php:331
+#, php-format
+msgid "Imported 1 field group"
+msgid_plural "Imported %s field groups"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/acf/admin/views/field-group-field-conditional-logic.php:29
+msgid "Conditional Logic"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field-conditional-logic.php:55
+msgid "Show this field if"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field-conditional-logic.php:104
+#: classes/acf/admin/views/field-group-locations.php:43
+msgid "is equal to"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field-conditional-logic.php:105
+#: classes/acf/admin/views/field-group-locations.php:44
+msgid "is not equal to"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field-conditional-logic.php:142
+#: classes/acf/admin/views/field-group-locations.php:131
+msgid "and"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field-conditional-logic.php:157
+#: classes/acf/admin/views/field-group-locations.php:146
+msgid "Add rule group"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:50
+#: classes/acf/pro/fields/flexible-content.php:422
+#: classes/acf/pro/fields/repeater.php:349
+msgid "Drag to reorder"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:55
+#: classes/acf/admin/views/field-group-field.php:58
+msgid "Edit field"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:58
+#: classes/acf/fields/image.php:142 classes/acf/pro/fields/gallery.php:357
+msgid "Edit"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:59
+msgid "Duplicate field"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:60
+msgid "Move field to another group"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:60
+msgid "Move"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:61
+msgid "Delete field"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:61
+#: classes/acf/pro/fields/flexible-content.php:574
+msgid "Delete"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:69
+msgid "Error"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:69
+msgid "Field type does not exist"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:82
+msgid "Field Label"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:83
+msgid "This is the name which will appear on the EDIT page"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:93
+msgid "Field Name"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:94
+msgid "Single word, no spaces. Underscores and dashes allowed"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:104
+msgid "Field Type"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:116
+#: classes/acf/fields/tab.php:102
+msgid "Instructions"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:117
+msgid "Instructions for authors. Shown when submitting data"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:126
+msgid "Required?"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:149
+msgid "Wrapper Attributes"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:155
+msgid "width"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:170
+msgid "class"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:183
+msgid "id"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-field.php:195
+msgid "Close Field"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-fields.php:15
+msgid "Order"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-fields.php:16
+#: classes/acf/fields/checkbox.php:312 classes/acf/fields/radio.php:313
+#: classes/acf/fields/select.php:525
+#: classes/acf/pro/fields/flexible-content.php:601
+msgid "Label"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-fields.php:17
+#: classes/acf/fields/taxonomy.php:966
+#: classes/acf/pro/fields/flexible-content.php:614
+msgid "Name"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-fields.php:18
+msgid "Type"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-fields.php:24
+msgid ""
+"No fields. Click the <strong>+ Add Field</strong> button to create your "
+"first field."
+msgstr ""
+
+#: classes/acf/admin/views/field-group-fields.php:41
+msgid "+ Add Field"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:5
+#: classes/acf/admin/views/field-group-locations.php:12
+#: classes/acf/admin/views/field-group-locations.php:38
+msgid "Post"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:6
+#: classes/acf/fields/relationship.php:738
+msgid "Post Type"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:7
+msgid "Post Template"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:8
+msgid "Post Status"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:9
+msgid "Post Format"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:10
+msgid "Post Category"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:11
+msgid "Post Taxonomy"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:14
+#: classes/acf/admin/views/field-group-locations.php:18
+msgid "Page"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:15
+msgid "Page Template"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:16
+msgid "Page Type"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:17
+msgid "Page Parent"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:20
+#: classes/acf/fields/user.php:36
+msgid "User"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:21
+msgid "Current User"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:22
+msgid "Current User Role"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:23
+msgid "User Form"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:24
+msgid "User Role"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:26
+#: classes/acf/pro/admin/options-page.php:49
+msgid "Forms"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:27
+msgid "Attachment"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:28
+msgid "Taxonomy Term"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:29
+msgid "Comment"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:30
+msgid "Widget"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:50
+msgid "Rules"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:51
+msgid ""
+"Create a set of rules to determine which edit screens will use these "
+"advanced custom fields"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-locations.php:68
+msgid "Show this field group if"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:19
+msgid "Style"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:26
+msgid "Standard (WP metabox)"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:27
+msgid "Seamless (no metabox)"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:34
+msgid "Position"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:41
+msgid "High (after title)"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:42
+msgid "Normal (after content)"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:43
+msgid "Side"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:51
+msgid "Label placement"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:58
+#: classes/acf/fields/tab.php:116
+msgid "Top aligned"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:59
+#: classes/acf/fields/tab.php:117
+msgid "Left Aligned"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:66
+msgid "Instruction placement"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:73
+msgid "Below labels"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:74
+msgid "Below fields"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:81
+msgid "Order No."
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:82
+msgid "Field groups with a lower order will appear first"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:93
+msgid "Shown in field group list"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:103
+msgid "Hide on screen"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:104
+msgid "<b>Select</b> items to <b>hide</b> them from the edit screen."
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:104
+msgid ""
+"If multiple field groups appear on an edit screen, the first field group's "
+"options will be used (the one with the lowest order number)"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:111
+msgid "Permalink"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:112
+msgid "Content Editor"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:113
+msgid "Excerpt"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:115
+msgid "Discussion"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:116
+msgid "Comments"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:117
+msgid "Revisions"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:118
+msgid "Slug"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:119
+msgid "Author"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:120
+msgid "Format"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:121
+msgid "Page Attributes"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:122
+#: classes/acf/fields/relationship.php:751
+msgid "Featured Image"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:123
+msgid "Categories"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:124
+msgid "Tags"
+msgstr ""
+
+#: classes/acf/admin/views/field-group-options.php:125
+msgid "Send Trackbacks"
+msgstr ""
+
+#: classes/acf/admin/views/install-network.php:4
+msgid "Upgrade Sites"
+msgstr ""
+
+#: classes/acf/admin/views/install-network.php:13
+#: classes/acf/admin/views/install.php:8
+msgid "Advanced Custom Fields Database Upgrade"
+msgstr ""
+
+#: classes/acf/admin/views/install-network.php:15
+#, php-format
+msgid ""
+"The following sites require a DB upgrade. Check the ones you want to update "
+"and then click %s."
+msgstr ""
+
+#: classes/acf/admin/views/install-network.php:24
+#: classes/acf/admin/views/install-network.php:32
+msgid "Site"
+msgstr ""
+
+#: classes/acf/admin/views/install-network.php:52
+#, php-format
+msgid "Site requires database upgrade from %s to %s"
+msgstr ""
+
+#: classes/acf/admin/views/install-network.php:54
+msgid "Site is up to date"
+msgstr ""
+
+#: classes/acf/admin/views/install-network.php:67
+#, php-format
+msgid ""
+"Database Upgrade complete. <a href=\"%s\">Return to network dashboard</a>"
+msgstr ""
+
+#: classes/acf/admin/views/install-network.php:106
+#: classes/acf/admin/views/install-notice.php:35
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+
+#: classes/acf/admin/views/install-network.php:162
+msgid "Upgrade complete"
+msgstr ""
+
+#: classes/acf/admin/views/install-network.php:166
+#: classes/acf/admin/views/install.php:14
+#, php-format
+msgid "Upgrading data to version %s"
+msgstr ""
+
+#: classes/acf/admin/views/install-notice.php:23
+msgid "Database Upgrade Required"
+msgstr ""
+
+#: classes/acf/admin/views/install-notice.php:25
+#, php-format
+msgid "Thank you for updating to %s v%s!"
+msgstr ""
+
+#: classes/acf/admin/views/install-notice.php:25
+msgid ""
+"Before you start using the new awesome features, please update your database "
+"to the newest version."
+msgstr ""
+
+#: classes/acf/admin/views/install.php:12
+msgid "Reading upgrade tasks..."
+msgstr ""
+
+#: classes/acf/admin/views/install.php:16
+#, php-format
+msgid "Database Upgrade complete. <a href=\"%s\">See what's new</a>"
+msgstr ""
+
+#: classes/acf/admin/views/settings-addons.php:23
+msgid "Download & Install"
+msgstr ""
+
+#: classes/acf/admin/views/settings-addons.php:42
+msgid "Installed"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:9
+msgid "Welcome to Advanced Custom Fields"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:10
+#, php-format
+msgid ""
+"Thank you for updating! ACF %s is bigger and better than ever before. We "
+"hope you like it."
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:23
+msgid "A smoother custom field experience"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:28
+msgid "Improved Usability"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:29
+msgid ""
+"Including the popular Select2 library has improved both usability and speed "
+"across a number of field types including post object, page link, taxonomy "
+"and select."
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:33
+msgid "Improved Design"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:34
+msgid ""
+"Many fields have undergone a visual refresh to make ACF look better than "
+"ever! Noticeable changes are seen on the gallery, relationship and oEmbed "
+"(new) fields!"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:38
+msgid "Improved Data"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:39
+msgid ""
+"Redesigning the data architecture has allowed sub fields to live "
+"independently from their parents. This allows you to drag and drop fields in "
+"and out of parent fields!"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:45
+msgid "Goodbye Add-ons. Hello PRO"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:50
+msgid "Introducing ACF PRO"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:51
+msgid ""
+"We're changing the way premium functionality is delivered in an exciting way!"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:52
+#, php-format
+msgid ""
+"All 4 premium add-ons have been combined into a new <a href=\"%s\">Pro "
+"version of ACF</a>. With both personal and developer licenses available, "
+"premium functionality is more affordable and accessible than ever before!"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:56
+msgid "Powerful Features"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:57
+msgid ""
+"ACF PRO contains powerful features such as repeatable data, flexible content "
+"layouts, a beautiful gallery field and the ability to create extra admin "
+"options pages!"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:58
+#, php-format
+msgid "Read more about <a href=\"%s\">ACF PRO features</a>."
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:62
+msgid "Easy Upgrading"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:63
+#, php-format
+msgid ""
+"To help make upgrading easy, <a href=\"%s\">login to your store account</a> "
+"and claim a free copy of ACF PRO!"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:64
+#, php-format
+msgid ""
+"We also wrote an <a href=\"%s\">upgrade guide</a> to answer any questions, "
+"but if you do have one, please contact our support team via the <a href=\"%s"
+"\">help desk</a>"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:72
+msgid "Under the Hood"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:77
+msgid "Smarter field settings"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:78
+msgid "ACF now saves its field settings as individual post objects"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:82
+msgid "More AJAX"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:83
+msgid "More fields use AJAX powered search to speed up page loading"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:87
+msgid "Local JSON"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:88
+msgid "New auto export to JSON feature improves speed"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:94
+msgid "Better version control"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:95
+msgid ""
+"New auto export to JSON feature allows field settings to be version "
+"controlled"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:99
+msgid "Swapped XML for JSON"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:100
+msgid "Import / Export now uses JSON in favour of XML"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:104
+msgid "New Forms"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:105
+msgid "Fields can now be mapped to comments, widgets and all user forms!"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:112
+msgid "A new field for embedding content has been added"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:116
+msgid "New Gallery"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:117
+msgid "The gallery field has undergone a much needed facelift"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:121
+msgid "New Settings"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:122
+msgid ""
+"Field group settings have been added for label placement and instruction "
+"placement"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:128
+msgid "Better Front End Forms"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:129
+msgid "acf_form() can now create a new post on submission"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:133
+msgid "Better Validation"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:134
+msgid "Form validation is now done via PHP + AJAX in favour of only JS"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:138
+msgid "Relationship Field"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:139
+msgid ""
+"New Relationship field setting for 'Filters' (Search, Post Type, Taxonomy)"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:145
+msgid "Moving Fields"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:146
+msgid ""
+"New field group functionality allows you to move a field between groups & "
+"parents"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:150
+#: classes/acf/fields/page_link.php:36
+msgid "Page Link"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:151
+msgid "New archives group in page_link field selection"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:155
+msgid "Better Options Pages"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:156
+msgid ""
+"New functions for options page allow creation of both parent and child menu "
+"pages"
+msgstr ""
+
+#: classes/acf/admin/views/settings-info.php:165
+#, php-format
+msgid "We think you'll love the changes in %s."
+msgstr ""
+
+#: classes/acf/admin/views/settings-tools-export.php:27
+msgid "Export Field Groups to PHP"
+msgstr ""
+
+#: classes/acf/admin/views/settings-tools-export.php:31
+msgid ""
+"The following code can be used to register a local version of the selected "
+"field group(s). A local field group can provide many benefits such as faster "
+"load times, version control & dynamic fields/settings. Simply copy and paste "
+"the following code to your theme's functions.php file or include it within "
+"an external file."
+msgstr ""
+
+#: classes/acf/admin/views/settings-tools.php:5
+msgid "Select Field Groups"
+msgstr ""
+
+#: classes/acf/admin/views/settings-tools.php:35
+msgid "Export Field Groups"
+msgstr ""
+
+#: classes/acf/admin/views/settings-tools.php:38
+msgid ""
+"Select the field groups you would like to export and then select your export "
+"method. Use the download button to export to a .json file which you can then "
+"import to another ACF installation. Use the generate button to export to PHP "
+"code which you can place in your theme."
+msgstr ""
+
+#: classes/acf/admin/views/settings-tools.php:50
+msgid "Download export file"
+msgstr ""
+
+#: classes/acf/admin/views/settings-tools.php:51
+msgid "Generate export code"
+msgstr ""
+
+#: classes/acf/admin/views/settings-tools.php:64
+msgid "Import Field Groups"
+msgstr ""
+
+#: classes/acf/admin/views/settings-tools.php:67
+msgid ""
+"Select the Advanced Custom Fields JSON file you would like to import. When "
+"you click the import button below, ACF will import the field groups."
+msgstr ""
+
+#: classes/acf/admin/views/settings-tools.php:77
+#: classes/acf/fields/file.php:46
+msgid "Select File"
+msgstr ""
+
+#: classes/acf/admin/views/settings-tools.php:86
+msgid "Import"
+msgstr ""
+
+#: classes/acf/api/api-helpers.php:874
+msgid "Thumbnail"
+msgstr ""
+
+#: classes/acf/api/api-helpers.php:875
+msgid "Medium"
+msgstr ""
+
+#: classes/acf/api/api-helpers.php:876
+msgid "Large"
+msgstr ""
+
+#: classes/acf/api/api-helpers.php:925
+msgid "Full Size"
+msgstr ""
+
+#: classes/acf/api/api-helpers.php:1246 classes/acf/api/api-helpers.php:1796
+#: classes/acf/pro/fields/clone.php:1037
+msgid "(no title)"
+msgstr ""
+
+#: classes/acf/api/api-helpers.php:1833 classes/acf/fields/page_link.php:284
+#: classes/acf/fields/post_object.php:283 classes/acf/fields/taxonomy.php:988
+msgid "Parent"
+msgstr ""
+
+#: classes/acf/api/api-helpers.php:3841
+#, php-format
+msgid "Image width must be at least %dpx."
+msgstr ""
+
+#: classes/acf/api/api-helpers.php:3846
+#, php-format
+msgid "Image width must not exceed %dpx."
+msgstr ""
+
+#: classes/acf/api/api-helpers.php:3862
+#, php-format
+msgid "Image height must be at least %dpx."
+msgstr ""
+
+#: classes/acf/api/api-helpers.php:3867
+#, php-format
+msgid "Image height must not exceed %dpx."
+msgstr ""
+
+#: classes/acf/api/api-helpers.php:3885
+#, php-format
+msgid "File size must be at least %s."
+msgstr ""
+
+#: classes/acf/api/api-helpers.php:3890
+#, php-format
+msgid "File size must must not exceed %s."
+msgstr ""
+
+#: classes/acf/api/api-helpers.php:3924
+#, php-format
+msgid "File type must be %s."
+msgstr ""
+
+#: classes/acf/api/api-template.php:1027 classes/acf/core/field.php:327
+msgid "Content"
+msgstr ""
+
+#: classes/acf/api/api-template.php:1035
+msgid "Validate Email"
+msgstr ""
+
+#: classes/acf/api/api-template.php:1085
+msgid "Spam Detected"
+msgstr ""
+
+#: classes/acf/api/api-template.php:1288
+#: classes/acf/pro/api/api-options-page.php:50
+#: classes/acf/pro/fields/gallery.php:588
+msgid "Update"
+msgstr ""
+
+#: classes/acf/api/api-template.php:1289
+msgid "Post updated"
+msgstr ""
+
+#: classes/acf/core/field.php:326
+msgid "Basic"
+msgstr ""
+
+#: classes/acf/core/field.php:328
+msgid "Choice"
+msgstr ""
+
+#: classes/acf/core/field.php:329
+msgid "Relational"
+msgstr ""
+
+#: classes/acf/core/field.php:330
+msgid "jQuery"
+msgstr ""
+
+#: classes/acf/core/field.php:331 classes/acf/fields/checkbox.php:281
+#: classes/acf/fields/radio.php:292 classes/acf/pro/fields/clone.php:884
+#: classes/acf/pro/fields/flexible-content.php:571
+#: classes/acf/pro/fields/flexible-content.php:620
+#: classes/acf/pro/fields/repeater.php:505
+msgid "Layout"
+msgstr ""
+
+#: classes/acf/core/input.php:258
+msgid "Expand Details"
+msgstr ""
+
+#: classes/acf/core/input.php:259
+msgid "Collapse Details"
+msgstr ""
+
+#: classes/acf/core/input.php:260
+msgid "Validation successful"
+msgstr ""
+
+#: classes/acf/core/input.php:261 classes/acf/core/validation.php:322
+#: classes/acf/forms/widget.php:234
+msgid "Validation failed"
+msgstr ""
+
+#: classes/acf/core/input.php:262
+msgid "1 field requires attention"
+msgstr ""
+
+#: classes/acf/core/input.php:263
+#, php-format
+msgid "%d fields require attention"
+msgstr ""
+
+#: classes/acf/core/input.php:264
+msgid "Restricted"
+msgstr ""
+
+#: classes/acf/core/media.php:54 classes/acf/fields/select.php:265
+msgctxt "verb"
+msgid "Select"
+msgstr ""
+
+#: classes/acf/core/media.php:55
+msgctxt "verb"
+msgid "Edit"
+msgstr ""
+
+#: classes/acf/core/media.php:56
+msgctxt "verb"
+msgid "Update"
+msgstr ""
+
+#: classes/acf/core/media.php:57 classes/acf/fields/file.php:49
+#: classes/acf/fields/image.php:54 classes/acf/pro/fields/gallery.php:55
+msgid "Uploaded to this post"
+msgstr ""
+
+#: classes/acf/core/validation.php:207
+#, php-format
+msgid "%s value is required"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:36 classes/acf/fields/taxonomy.php:782
+msgid "Checkbox"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:145
+msgid "Toggle All"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:202
+msgid "Add new choice"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:241 classes/acf/fields/radio.php:242
+#: classes/acf/fields/select.php:461
+msgid "Choices"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:242 classes/acf/fields/radio.php:243
+#: classes/acf/fields/select.php:462
+msgid "Enter each choice on a new line."
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:242 classes/acf/fields/radio.php:243
+#: classes/acf/fields/select.php:462
+msgid "For more control, you may specify both a value and label like this:"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:242 classes/acf/fields/radio.php:243
+#: classes/acf/fields/select.php:462
+msgid "red : Red"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:250
+msgid "Allow Custom"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:255
+msgid "Allow 'custom' values to be added"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:261
+msgid "Save Custom"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:266
+msgid "Save 'custom' values to the field's choices"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:272 classes/acf/fields/color_picker.php:147
+#: classes/acf/fields/email.php:133 classes/acf/fields/number.php:145
+#: classes/acf/fields/radio.php:283 classes/acf/fields/select.php:470
+#: classes/acf/fields/text.php:142 classes/acf/fields/textarea.php:139
+#: classes/acf/fields/true_false.php:150 classes/acf/fields/url.php:114
+#: classes/acf/fields/wysiwyg.php:440
+msgid "Default Value"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:273 classes/acf/fields/select.php:471
+msgid "Enter each default value on a new line"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:287 classes/acf/fields/radio.php:298
+msgid "Vertical"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:288 classes/acf/fields/radio.php:299
+msgid "Horizontal"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:295
+msgid "Toggle"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:296
+msgid "Prepend an extra checkbox to toggle all choices"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:305 classes/acf/fields/file.php:222
+#: classes/acf/fields/image.php:208 classes/acf/fields/radio.php:306
+#: classes/acf/fields/taxonomy.php:835
+msgid "Return Value"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:306 classes/acf/fields/file.php:223
+#: classes/acf/fields/image.php:209 classes/acf/fields/radio.php:307
+msgid "Specify the returned value on front end"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:311 classes/acf/fields/radio.php:312
+#: classes/acf/fields/select.php:524
+msgid "Value"
+msgstr ""
+
+#: classes/acf/fields/checkbox.php:313 classes/acf/fields/radio.php:314
+#: classes/acf/fields/select.php:526
+msgid "Both (Array)"
+msgstr ""
+
+#: classes/acf/fields/color_picker.php:36
+msgid "Color Picker"
+msgstr ""
+
+#: classes/acf/fields/color_picker.php:83
+msgid "Clear"
+msgstr ""
+
+#: classes/acf/fields/color_picker.php:84
+msgid "Default"
+msgstr ""
+
+#: classes/acf/fields/color_picker.php:85
+msgid "Select Color"
+msgstr ""
+
+#: classes/acf/fields/color_picker.php:86
+msgid "Current Color"
+msgstr ""
+
+#: classes/acf/fields/date_picker.php:36
+msgid "Date Picker"
+msgstr ""
+
+#: classes/acf/fields/date_picker.php:44
+msgctxt "Date Picker JS closeText"
+msgid "Done"
+msgstr ""
+
+#: classes/acf/fields/date_picker.php:45
+msgctxt "Date Picker JS currentText"
+msgid "Today"
+msgstr ""
+
+#: classes/acf/fields/date_picker.php:46
+msgctxt "Date Picker JS nextText"
+msgid "Next"
+msgstr ""
+
+#: classes/acf/fields/date_picker.php:47
+msgctxt "Date Picker JS prevText"
+msgid "Prev"
+msgstr ""
+
+#: classes/acf/fields/date_picker.php:48
+msgctxt "Date Picker JS weekHeader"
+msgid "Wk"
+msgstr ""
+
+#: classes/acf/fields/date_picker.php:216
+#: classes/acf/fields/date_time_picker.php:190
+#: classes/acf/fields/time_picker.php:126
+msgid "Display Format"
+msgstr ""
+
+#: classes/acf/fields/date_picker.php:217
+#: classes/acf/fields/date_time_picker.php:191
+#: classes/acf/fields/time_picker.php:127
+msgid "The format displayed when editing a post"
+msgstr ""
+
+#: classes/acf/fields/date_picker.php:234
+msgid "Save Format"
+msgstr ""
+
+#: classes/acf/fields/date_picker.php:235
+msgid "The format used when saving a value"
+msgstr ""
+
+#: classes/acf/fields/date_picker.php:245
+#: classes/acf/fields/date_time_picker.php:206
+#: classes/acf/fields/post_object.php:447
+#: classes/acf/fields/relationship.php:778 classes/acf/fields/select.php:519
+#: classes/acf/fields/time_picker.php:140
+msgid "Return Format"
+msgstr ""
+
+#: classes/acf/fields/date_picker.php:246
+#: classes/acf/fields/date_time_picker.php:207
+#: classes/acf/fields/time_picker.php:141
+msgid "The format returned via template functions"
+msgstr ""
+
+#: classes/acf/fields/date_picker.php:263
+#: classes/acf/fields/date_time_picker.php:222
+msgid "Week Starts On"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:36
+msgid "Date Time Picker"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:44
+msgctxt "Date Time Picker JS timeOnlyTitle"
+msgid "Choose Time"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:45
+msgctxt "Date Time Picker JS timeText"
+msgid "Time"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:46
+msgctxt "Date Time Picker JS hourText"
+msgid "Hour"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:47
+msgctxt "Date Time Picker JS minuteText"
+msgid "Minute"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:48
+msgctxt "Date Time Picker JS secondText"
+msgid "Second"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:49
+msgctxt "Date Time Picker JS millisecText"
+msgid "Millisecond"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:50
+msgctxt "Date Time Picker JS microsecText"
+msgid "Microsecond"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:51
+msgctxt "Date Time Picker JS timezoneText"
+msgid "Time Zone"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:52
+msgctxt "Date Time Picker JS currentText"
+msgid "Now"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:53
+msgctxt "Date Time Picker JS closeText"
+msgid "Done"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:54
+msgctxt "Date Time Picker JS selectText"
+msgid "Select"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:56
+msgctxt "Date Time Picker JS amText"
+msgid "AM"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:57
+msgctxt "Date Time Picker JS amTextShort"
+msgid "A"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:60
+msgctxt "Date Time Picker JS pmText"
+msgid "PM"
+msgstr ""
+
+#: classes/acf/fields/date_time_picker.php:61
+msgctxt "Date Time Picker JS pmTextShort"
+msgid "P"
+msgstr ""
+
+#: classes/acf/fields/email.php:36 classes/admin/WCST_AdminMenu.php:152
+msgid "Email"
+msgstr ""
+
+#: classes/acf/fields/email.php:134 classes/acf/fields/number.php:146
+#: classes/acf/fields/radio.php:284 classes/acf/fields/text.php:143
+#: classes/acf/fields/textarea.php:140 classes/acf/fields/url.php:115
+#: classes/acf/fields/wysiwyg.php:441
+msgid "Appears when creating a new post"
+msgstr ""
+
+#: classes/acf/fields/email.php:142 classes/acf/fields/number.php:154
+#: classes/acf/fields/password.php:134 classes/acf/fields/text.php:151
+#: classes/acf/fields/textarea.php:148 classes/acf/fields/url.php:123
+msgid "Placeholder Text"
+msgstr ""
+
+#: classes/acf/fields/email.php:143 classes/acf/fields/number.php:155
+#: classes/acf/fields/password.php:135 classes/acf/fields/text.php:152
+#: classes/acf/fields/textarea.php:149 classes/acf/fields/url.php:124
+msgid "Appears within the input"
+msgstr ""
+
+#: classes/acf/fields/email.php:151 classes/acf/fields/number.php:163
+#: classes/acf/fields/password.php:143 classes/acf/fields/text.php:160
+msgid "Prepend"
+msgstr ""
+
+#: classes/acf/fields/email.php:152 classes/acf/fields/number.php:164
+#: classes/acf/fields/password.php:144 classes/acf/fields/text.php:161
+msgid "Appears before the input"
+msgstr ""
+
+#: classes/acf/fields/email.php:160 classes/acf/fields/number.php:172
+#: classes/acf/fields/password.php:152 classes/acf/fields/text.php:169
+msgid "Append"
+msgstr ""
+
+#: classes/acf/fields/email.php:161 classes/acf/fields/number.php:173
+#: classes/acf/fields/password.php:153 classes/acf/fields/text.php:170
+msgid "Appears after the input"
+msgstr ""
+
+#: classes/acf/fields/file.php:36
+msgid "File"
+msgstr ""
+
+#: classes/acf/fields/file.php:47
+msgid "Edit File"
+msgstr ""
+
+#: classes/acf/fields/file.php:48
+msgid "Update File"
+msgstr ""
+
+#: classes/acf/fields/file.php:148
+msgid "File name"
+msgstr ""
+
+#: classes/acf/fields/file.php:152 classes/acf/fields/file.php:255
+#: classes/acf/fields/file.php:266 classes/acf/fields/image.php:268
+#: classes/acf/fields/image.php:297 classes/acf/pro/fields/gallery.php:705
+#: classes/acf/pro/fields/gallery.php:734
+msgid "File size"
+msgstr ""
+
+#: classes/acf/fields/file.php:177
+msgid "Add File"
+msgstr ""
+
+#: classes/acf/fields/file.php:228
+msgid "File Array"
+msgstr ""
+
+#: classes/acf/fields/file.php:229
+msgid "File URL"
+msgstr ""
+
+#: classes/acf/fields/file.php:230
+msgid "File ID"
+msgstr ""
+
+#: classes/acf/fields/file.php:237 classes/acf/fields/image.php:233
+#: classes/acf/pro/fields/gallery.php:670
+msgid "Library"
+msgstr ""
+
+#: classes/acf/fields/file.php:238 classes/acf/fields/image.php:234
+#: classes/acf/pro/fields/gallery.php:671
+msgid "Limit the media library choice"
+msgstr ""
+
+#: classes/acf/fields/file.php:244 classes/acf/fields/image.php:240
+#: classes/acf/pro/fields/gallery.php:677
+msgid "Uploaded to post"
+msgstr ""
+
+#: classes/acf/fields/file.php:251 classes/acf/fields/image.php:247
+#: classes/acf/pro/fields/gallery.php:684
+msgid "Minimum"
+msgstr ""
+
+#: classes/acf/fields/file.php:252 classes/acf/fields/file.php:263
+msgid "Restrict which files can be uploaded"
+msgstr ""
+
+#: classes/acf/fields/file.php:262 classes/acf/fields/image.php:276
+#: classes/acf/pro/fields/gallery.php:713
+msgid "Maximum"
+msgstr ""
+
+#: classes/acf/fields/file.php:273 classes/acf/fields/image.php:305
+#: classes/acf/pro/fields/gallery.php:742
+msgid "Allowed file types"
+msgstr ""
+
+#: classes/acf/fields/file.php:274 classes/acf/fields/image.php:306
+#: classes/acf/pro/fields/gallery.php:743
+msgid "Comma separated list. Leave blank for all types"
+msgstr ""
+
+#: classes/acf/fields/google-map.php:36
+msgid "Google Map"
+msgstr ""
+
+#: classes/acf/fields/google-map.php:51
+msgid "Locating"
+msgstr ""
+
+#: classes/acf/fields/google-map.php:52
+msgid "Sorry, this browser does not support geolocation"
+msgstr ""
+
+#: classes/acf/fields/google-map.php:133
+msgid "Clear location"
+msgstr ""
+
+#: classes/acf/fields/google-map.php:134
+msgid "Find current location"
+msgstr ""
+
+#: classes/acf/fields/google-map.php:137
+msgid "Search for address..."
+msgstr ""
+
+#: classes/acf/fields/google-map.php:167 classes/acf/fields/google-map.php:178
+msgid "Center"
+msgstr ""
+
+#: classes/acf/fields/google-map.php:168 classes/acf/fields/google-map.php:179
+msgid "Center the initial map"
+msgstr ""
+
+#: classes/acf/fields/google-map.php:190
+msgid "Zoom"
+msgstr ""
+
+#: classes/acf/fields/google-map.php:191
+msgid "Set the initial zoom level"
+msgstr ""
+
+#: classes/acf/fields/google-map.php:200 classes/acf/fields/image.php:259
+#: classes/acf/fields/image.php:288 classes/acf/fields/oembed.php:270
+#: classes/acf/pro/fields/gallery.php:696
+#: classes/acf/pro/fields/gallery.php:725
+msgid "Height"
+msgstr ""
+
+#: classes/acf/fields/google-map.php:201
+msgid "Customise the map height"
+msgstr ""
+
+#: classes/acf/fields/image.php:36
+msgid "Image"
+msgstr ""
+
+#: classes/acf/fields/image.php:51
+msgid "Select Image"
+msgstr ""
+
+#: classes/acf/fields/image.php:52 classes/acf/pro/fields/gallery.php:53
+msgid "Edit Image"
+msgstr ""
+
+#: classes/acf/fields/image.php:53 classes/acf/pro/fields/gallery.php:54
+msgid "Update Image"
+msgstr ""
+
+#: classes/acf/fields/image.php:55
+msgid "All images"
+msgstr ""
+
+#: classes/acf/fields/image.php:144 classes/acf/pro/fields/gallery.php:358
+#: classes/acf/pro/fields/gallery.php:546 classes/com/WCST_HtmlHelper.php:185
+#: classes/com/WCST_HtmlHelper.php:228
+msgid "Remove"
+msgstr ""
+
+#: classes/acf/fields/image.php:160
+msgid "No image selected"
+msgstr ""
+
+#: classes/acf/fields/image.php:160
+msgid "Add Image"
+msgstr ""
+
+#: classes/acf/fields/image.php:214
+msgid "Image Array"
+msgstr ""
+
+#: classes/acf/fields/image.php:215
+msgid "Image URL"
+msgstr ""
+
+#: classes/acf/fields/image.php:216
+msgid "Image ID"
+msgstr ""
+
+#: classes/acf/fields/image.php:223
+msgid "Preview Size"
+msgstr ""
+
+#: classes/acf/fields/image.php:224
+msgid "Shown when entering data"
+msgstr ""
+
+#: classes/acf/fields/image.php:248 classes/acf/fields/image.php:277
+#: classes/acf/pro/fields/gallery.php:685
+#: classes/acf/pro/fields/gallery.php:714
+msgid "Restrict which images can be uploaded"
+msgstr ""
+
+#: classes/acf/fields/image.php:251 classes/acf/fields/image.php:280
+#: classes/acf/fields/oembed.php:259 classes/acf/pro/fields/gallery.php:688
+#: classes/acf/pro/fields/gallery.php:717
+msgid "Width"
+msgstr ""
+
+#: classes/acf/fields/message.php:36 classes/acf/fields/message.php:115
+#: classes/acf/fields/true_false.php:141
+msgid "Message"
+msgstr ""
+
+#: classes/acf/fields/message.php:124 classes/acf/fields/textarea.php:176
+msgid "New Lines"
+msgstr ""
+
+#: classes/acf/fields/message.php:125 classes/acf/fields/textarea.php:177
+msgid "Controls how new lines are rendered"
+msgstr ""
+
+#: classes/acf/fields/message.php:129 classes/acf/fields/textarea.php:181
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: classes/acf/fields/message.php:130 classes/acf/fields/textarea.php:182
+msgid "Automatically add &lt;br&gt;"
+msgstr ""
+
+#: classes/acf/fields/message.php:131 classes/acf/fields/textarea.php:183
+msgid "No Formatting"
+msgstr ""
+
+#: classes/acf/fields/message.php:138
+msgid "Escape HTML"
+msgstr ""
+
+#: classes/acf/fields/message.php:139
+msgid "Allow HTML markup to display as visible text instead of rendering"
+msgstr ""
+
+#: classes/acf/fields/number.php:36
+msgid "Number"
+msgstr ""
+
+#: classes/acf/fields/number.php:181
+msgid "Minimum Value"
+msgstr ""
+
+#: classes/acf/fields/number.php:190
+msgid "Maximum Value"
+msgstr ""
+
+#: classes/acf/fields/number.php:199
+msgid "Step Size"
+msgstr ""
+
+#: classes/acf/fields/number.php:237
+msgid "Value must be a number"
+msgstr ""
+
+#: classes/acf/fields/number.php:255
+#, php-format
+msgid "Value must be equal to or higher than %d"
+msgstr ""
+
+#: classes/acf/fields/number.php:263
+#, php-format
+msgid "Value must be equal to or lower than %d"
+msgstr ""
+
+#: classes/acf/fields/oembed.php:36
+msgid "oEmbed"
+msgstr ""
+
+#: classes/acf/fields/oembed.php:207
+msgid "Enter URL"
+msgstr ""
+
+#: classes/acf/fields/oembed.php:220 classes/acf/fields/taxonomy.php:900
+msgid "Error."
+msgstr ""
+
+#: classes/acf/fields/oembed.php:220
+msgid "No embed found for the given URL."
+msgstr ""
+
+#: classes/acf/fields/oembed.php:256 classes/acf/fields/oembed.php:267
+msgid "Embed Size"
+msgstr ""
+
+#: classes/acf/fields/page_link.php:192
+msgid "Archives"
+msgstr ""
+
+#: classes/acf/fields/page_link.php:500 classes/acf/fields/post_object.php:399
+#: classes/acf/fields/relationship.php:704
+msgid "Filter by Post Type"
+msgstr ""
+
+#: classes/acf/fields/page_link.php:508 classes/acf/fields/post_object.php:407
+#: classes/acf/fields/relationship.php:712
+msgid "All post types"
+msgstr ""
+
+#: classes/acf/fields/page_link.php:514 classes/acf/fields/post_object.php:413
+#: classes/acf/fields/relationship.php:718
+msgid "Filter by Taxonomy"
+msgstr ""
+
+#: classes/acf/fields/page_link.php:522 classes/acf/fields/post_object.php:421
+#: classes/acf/fields/relationship.php:726
+msgid "All taxonomies"
+msgstr ""
+
+#: classes/acf/fields/page_link.php:528 classes/acf/fields/post_object.php:427
+#: classes/acf/fields/radio.php:251 classes/acf/fields/select.php:479
+#: classes/acf/fields/taxonomy.php:795 classes/acf/fields/user.php:394
+msgid "Allow Null?"
+msgstr ""
+
+#: classes/acf/fields/page_link.php:538
+msgid "Allow Archives URLs"
+msgstr ""
+
+#: classes/acf/fields/page_link.php:548 classes/acf/fields/post_object.php:437
+#: classes/acf/fields/select.php:489 classes/acf/fields/user.php:404
+msgid "Select multiple values?"
+msgstr ""
+
+#: classes/acf/fields/password.php:36
+msgid "Password"
+msgstr ""
+
+#: classes/acf/fields/post_object.php:36
+#: classes/acf/fields/post_object.php:452
+#: classes/acf/fields/relationship.php:783
+msgid "Post Object"
+msgstr ""
+
+#: classes/acf/fields/post_object.php:453
+#: classes/acf/fields/relationship.php:784
+msgid "Post ID"
+msgstr ""
+
+#: classes/acf/fields/radio.php:36
+msgid "Radio Button"
+msgstr ""
+
+#: classes/acf/fields/radio.php:261
+msgid "Other"
+msgstr ""
+
+#: classes/acf/fields/radio.php:266
+msgid "Add 'other' choice to allow for custom values"
+msgstr ""
+
+#: classes/acf/fields/radio.php:272
+msgid "Save Other"
+msgstr ""
+
+#: classes/acf/fields/radio.php:277
+msgid "Save 'other' values to the field's choices"
+msgstr ""
+
+#: classes/acf/fields/relationship.php:36
+msgid "Relationship"
+msgstr ""
+
+#: classes/acf/fields/relationship.php:48
+msgid "Minimum values reached ( {min} values )"
+msgstr ""
+
+#: classes/acf/fields/relationship.php:49
+msgid "Maximum values reached ( {max} values )"
+msgstr ""
+
+#: classes/acf/fields/relationship.php:50
+msgid "Loading"
+msgstr ""
+
+#: classes/acf/fields/relationship.php:51
+msgid "No matches found"
+msgstr ""
+
+#: classes/acf/fields/relationship.php:585
+msgid "Search..."
+msgstr ""
+
+#: classes/acf/fields/relationship.php:594
+msgid "Select post type"
+msgstr ""
+
+#: classes/acf/fields/relationship.php:607
+msgid "Select taxonomy"
+msgstr ""
+
+#: classes/acf/fields/relationship.php:739 classes/acf/fields/taxonomy.php:36
+#: classes/acf/fields/taxonomy.php:765
+msgid "Taxonomy"
+msgstr ""
+
+#: classes/acf/fields/relationship.php:746
+msgid "Elements"
+msgstr ""
+
+#: classes/acf/fields/relationship.php:747
+msgid "Selected elements will be displayed in each result"
+msgstr ""
+
+#: classes/acf/fields/relationship.php:758
+msgid "Minimum posts"
+msgstr ""
+
+#: classes/acf/fields/relationship.php:767
+msgid "Maximum posts"
+msgstr ""
+
+#: classes/acf/fields/relationship.php:871
+#: classes/acf/pro/fields/gallery.php:815
+#, php-format
+msgid "%s requires at least %s selection"
+msgid_plural "%s requires at least %s selections"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/acf/fields/select.php:36 classes/acf/fields/taxonomy.php:787
+msgctxt "noun"
+msgid "Select"
+msgstr ""
+
+#: classes/acf/fields/select.php:49
+msgctxt "Select2 JS matches_1"
+msgid "One result is available, press enter to select it."
+msgstr ""
+
+#: classes/acf/fields/select.php:50
+#, php-format
+msgctxt "Select2 JS matches_n"
+msgid "%d results are available, use up and down arrow keys to navigate."
+msgstr ""
+
+#: classes/acf/fields/select.php:51
+msgctxt "Select2 JS matches_0"
+msgid "No matches found"
+msgstr ""
+
+#: classes/acf/fields/select.php:52
+msgctxt "Select2 JS input_too_short_1"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: classes/acf/fields/select.php:53
+#, php-format
+msgctxt "Select2 JS input_too_short_n"
+msgid "Please enter %d or more characters"
+msgstr ""
+
+#: classes/acf/fields/select.php:54
+msgctxt "Select2 JS input_too_long_1"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: classes/acf/fields/select.php:55
+#, php-format
+msgctxt "Select2 JS input_too_long_n"
+msgid "Please delete %d characters"
+msgstr ""
+
+#: classes/acf/fields/select.php:56
+msgctxt "Select2 JS selection_too_long_1"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: classes/acf/fields/select.php:57
+#, php-format
+msgctxt "Select2 JS selection_too_long_n"
+msgid "You can only select %d items"
+msgstr ""
+
+#: classes/acf/fields/select.php:58
+msgctxt "Select2 JS load_more"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: classes/acf/fields/select.php:59
+msgctxt "Select2 JS searching"
+msgid "Searching&hellip;"
+msgstr ""
+
+#: classes/acf/fields/select.php:60
+msgctxt "Select2 JS load_fail"
+msgid "Loading failed"
+msgstr ""
+
+#: classes/acf/fields/select.php:499 classes/acf/fields/true_false.php:159
+msgid "Stylised UI"
+msgstr ""
+
+#: classes/acf/fields/select.php:509
+msgid "Use AJAX to lazy load choices?"
+msgstr ""
+
+#: classes/acf/fields/select.php:520
+msgid "Specify the value returned"
+msgstr ""
+
+#: classes/acf/fields/tab.php:36
+msgid "Tab"
+msgstr ""
+
+#: classes/acf/fields/tab.php:96
+msgid ""
+"The tab field will display incorrectly when added to a Table style repeater "
+"field or flexible content field layout"
+msgstr ""
+
+#: classes/acf/fields/tab.php:97
+msgid ""
+"Use \"Tab Fields\" to better organize your edit screen by grouping fields "
+"together."
+msgstr ""
+
+#: classes/acf/fields/tab.php:98
+msgid ""
+"All fields following this \"tab field\" (or until another \"tab field\" is "
+"defined) will be grouped together using this field's label as the tab "
+"heading."
+msgstr ""
+
+#: classes/acf/fields/tab.php:112
+msgid "Placement"
+msgstr ""
+
+#: classes/acf/fields/tab.php:124
+msgid "End-point"
+msgstr ""
+
+#: classes/acf/fields/tab.php:125
+msgid "Use this field as an end-point and start a new group of tabs"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:715 classes/acf/fields/true_false.php:95
+#: classes/acf/fields/true_false.php:184
+#: classes/acf/pro/admin/views/settings-updates.php:103
+#: classes/admin/WCST_AdminMenu.php:640
+#: classes/admin/WCST_QuickAssignPage.php:91
+#: classes/com/WCST_HtmlHelper.php:197
+msgid "No"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:734
+msgid "None"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:766
+msgid "Select the taxonomy to be displayed"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:775
+msgid "Appearance"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:776
+msgid "Select the appearance of this field"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:781
+msgid "Multiple Values"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:783
+msgid "Multi Select"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:785
+msgid "Single Value"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:786
+msgid "Radio Buttons"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:805
+msgid "Create Terms"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:806
+msgid "Allow new terms to be created whilst editing"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:815
+msgid "Save Terms"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:816
+msgid "Connect selected terms to the post"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:825
+msgid "Load Terms"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:826
+msgid "Load value from posts terms"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:840
+msgid "Term Object"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:841
+msgid "Term ID"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:900
+#, php-format
+msgid "User unable to add new %s"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:913
+#, php-format
+msgid "%s already exists"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:954
+#, php-format
+msgid "%s added"
+msgstr ""
+
+#: classes/acf/fields/taxonomy.php:999
+msgid "Add"
+msgstr ""
+
+#: classes/acf/fields/text.php:36
+msgid "Text"
+msgstr ""
+
+#: classes/acf/fields/text.php:178 classes/acf/fields/textarea.php:157
+msgid "Character Limit"
+msgstr ""
+
+#: classes/acf/fields/text.php:179 classes/acf/fields/textarea.php:158
+msgid "Leave blank for no limit"
+msgstr ""
+
+#: classes/acf/fields/textarea.php:36
+msgid "Text Area"
+msgstr ""
+
+#: classes/acf/fields/textarea.php:166
+msgid "Rows"
+msgstr ""
+
+#: classes/acf/fields/textarea.php:167
+msgid "Sets the textarea height"
+msgstr ""
+
+#: classes/acf/fields/time_picker.php:36
+msgid "Time Picker"
+msgstr ""
+
+#: classes/acf/fields/true_false.php:36
+msgid "True / False"
+msgstr ""
+
+#: classes/acf/fields/true_false.php:94 classes/acf/fields/true_false.php:174
+#: classes/acf/pro/admin/views/settings-updates.php:93
+#: classes/admin/WCST_AdminMenu.php:641 classes/com/WCST_HtmlHelper.php:198
+msgid "Yes"
+msgstr ""
+
+#: classes/acf/fields/true_false.php:142
+msgid "Displays text alongside the checkbox"
+msgstr ""
+
+#: classes/acf/fields/true_false.php:170
+msgid "On Text"
+msgstr ""
+
+#: classes/acf/fields/true_false.php:171
+msgid "Text shown when active"
+msgstr ""
+
+#: classes/acf/fields/true_false.php:180
+msgid "Off Text"
+msgstr ""
+
+#: classes/acf/fields/true_false.php:181
+msgid "Text shown when inactive"
+msgstr ""
+
+#: classes/acf/fields/url.php:36
+msgid "Url"
+msgstr ""
+
+#: classes/acf/fields/url.php:165
+msgid "Value must be a valid URL"
+msgstr ""
+
+#: classes/acf/fields/user.php:379
+msgid "Filter by role"
+msgstr ""
+
+#: classes/acf/fields/user.php:387
+msgid "All user roles"
+msgstr ""
+
+#: classes/acf/fields/wysiwyg.php:36
+msgid "Wysiwyg Editor"
+msgstr ""
+
+#: classes/acf/fields/wysiwyg.php:389
+msgid "Visual"
+msgstr ""
+
+#: classes/acf/fields/wysiwyg.php:390
+msgctxt "Name for the Text editor tab (formerly HTML)"
+msgid "Text"
+msgstr ""
+
+#: classes/acf/fields/wysiwyg.php:396
+msgid "Click to initialize TinyMCE"
+msgstr ""
+
+#: classes/acf/fields/wysiwyg.php:449
+msgid "Tabs"
+msgstr ""
+
+#: classes/acf/fields/wysiwyg.php:454
+msgid "Visual & Text"
+msgstr ""
+
+#: classes/acf/fields/wysiwyg.php:455
+msgid "Visual Only"
+msgstr ""
+
+#: classes/acf/fields/wysiwyg.php:456
+msgid "Text Only"
+msgstr ""
+
+#: classes/acf/fields/wysiwyg.php:463
+msgid "Toolbar"
+msgstr ""
+
+#: classes/acf/fields/wysiwyg.php:473
+msgid "Show Media Upload Buttons?"
+msgstr ""
+
+#: classes/acf/fields/wysiwyg.php:483
+msgid "Delay initialization?"
+msgstr ""
+
+#: classes/acf/fields/wysiwyg.php:484
+msgid "TinyMCE will not be initalized until field is clicked"
+msgstr ""
+
+#: classes/acf/forms/comment.php:166 classes/acf/forms/post.php:295
+#: classes/acf/pro/admin/options-page.php:416
+msgid "Edit field group"
+msgstr ""
+
+#: classes/acf/forms/widget.php:235
+#, php-format
+msgid "1 field requires attention."
+msgid_plural "%d fields require attention."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/acf/pro/acf-pro.php:24
+msgid "Advanced Custom Fields PRO"
+msgstr ""
+
+#: classes/acf/pro/acf-pro.php:192
+msgid "Flexible Content requires at least 1 layout"
+msgstr ""
+
+#: classes/acf/pro/admin/options-page.php:49
+msgid "Options Page"
+msgstr ""
+
+#: classes/acf/pro/admin/options-page.php:85
+msgid "No options pages exist"
+msgstr ""
+
+#: classes/acf/pro/admin/options-page.php:303
+msgid "Options Updated"
+msgstr ""
+
+#: classes/acf/pro/admin/options-page.php:309
+msgid "Publish"
+msgstr ""
+
+#: classes/acf/pro/admin/options-page.php:315
+#, php-format
+msgid ""
+"No Custom Field Groups found for this options page. <a href=\"%s\">Create a "
+"Custom Field Group</a>"
+msgstr ""
+
+#: classes/acf/pro/admin/settings-updates.php:57
+#: classes/acf/pro/admin/views/settings-updates.php:17
+msgid "Updates"
+msgstr ""
+
+#: classes/acf/pro/admin/settings-updates.php:87
+msgid "<b>Error</b>. Could not connect to update server"
+msgstr ""
+
+#: classes/acf/pro/admin/views/settings-updates.php:11
+msgid "Deactivate License"
+msgstr ""
+
+#: classes/acf/pro/admin/views/settings-updates.php:11
+msgid "Activate License"
+msgstr ""
+
+#: classes/acf/pro/admin/views/settings-updates.php:21
+msgid "License Information"
+msgstr ""
+
+#: classes/acf/pro/admin/views/settings-updates.php:24
+#, php-format
+msgid ""
+"To unlock updates, please enter your license key below. If you don't have a "
+"licence key, please see <a href=\"%s\" target=\"_blank\">details & pricing</"
+"a>."
+msgstr ""
+
+#: classes/acf/pro/admin/views/settings-updates.php:33
+msgid "License Key"
+msgstr ""
+
+#: classes/acf/pro/admin/views/settings-updates.php:65
+msgid "Update Information"
+msgstr ""
+
+#: classes/acf/pro/admin/views/settings-updates.php:72
+msgid "Current Version"
+msgstr ""
+
+#: classes/acf/pro/admin/views/settings-updates.php:80
+msgid "Latest Version"
+msgstr ""
+
+#: classes/acf/pro/admin/views/settings-updates.php:88
+msgid "Update Available"
+msgstr ""
+
+#: classes/acf/pro/admin/views/settings-updates.php:96
+msgid "Update Plugin"
+msgstr ""
+
+#: classes/acf/pro/admin/views/settings-updates.php:98
+msgid "Please enter your license key above to unlock updates"
+msgstr ""
+
+#: classes/acf/pro/admin/views/settings-updates.php:104
+msgid "Check Again"
+msgstr ""
+
+#: classes/acf/pro/admin/views/settings-updates.php:121
+msgid "Upgrade Notice"
+msgstr ""
+
+#: classes/acf/pro/api/api-options-page.php:22
+#: classes/acf/pro/api/api-options-page.php:23
+msgid "Options"
+msgstr ""
+
+#: classes/acf/pro/api/api-pro.php:330
+msgid ""
+"Error validating ACF PRO license URL (website does not match). Please re-"
+"activate your license"
+msgstr ""
+
+#: classes/acf/pro/core/updates.php:206
+#, php-format
+msgid ""
+"To enable updates, please enter your license key on the <a href=\"%s"
+"\">Updates</a> page. If you don't have a licence key, please see <a href=\"%s"
+"\">details & pricing</a>."
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:36
+msgctxt "noun"
+msgid "Clone"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:855
+msgid "Select one or more fields you wish to clone"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:870
+msgid "Display"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:871
+msgid "Specify the style used to render the clone field"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:876
+msgid "Group (displays selected fields in a group within this field)"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:877
+msgid "Seamless (replaces this field with selected fields)"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:885
+msgid "Specify the style used to render the selected fields"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:890
+#: classes/acf/pro/fields/flexible-content.php:631
+#: classes/acf/pro/fields/repeater.php:513
+msgid "Block"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:891
+#: classes/acf/pro/fields/flexible-content.php:630
+#: classes/acf/pro/fields/repeater.php:512
+msgid "Table"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:892
+#: classes/acf/pro/fields/flexible-content.php:632
+#: classes/acf/pro/fields/repeater.php:514
+msgid "Row"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:898
+#, php-format
+msgid "Labels will be displayed as %s"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:901
+msgid "Prefix Field Labels"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:912
+#, php-format
+msgid "Values will be saved as %s"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:915
+msgid "Prefix Field Names"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:1033
+msgid "Unknown field"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:1072
+msgid "Unknown field group"
+msgstr ""
+
+#: classes/acf/pro/fields/clone.php:1076
+#, php-format
+msgid "All fields from %s field group"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:36
+msgid "Flexible Content"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:42
+#: classes/acf/pro/fields/repeater.php:221
+#: classes/acf/pro/fields/repeater.php:525
+msgid "Add Row"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:45
+msgid "layout"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:46
+msgid "layouts"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:47
+msgid "remove {layout}?"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:48
+msgid "This field requires at least {min} {identifier}"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:49
+msgid "This field has a limit of {max} {identifier}"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:50
+msgid "This field requires at least {min} {label} {identifier}"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:51
+msgid "Maximum {label} limit reached ({max} {identifier})"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:52
+msgid "{available} {label} {identifier} available (max {max})"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:53
+msgid "{required} {label} {identifier} required (min {min})"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:282
+#, php-format
+msgid "Click the \"%s\" button below to start creating your layout"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:425
+msgid "Add layout"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:426
+msgid "Remove layout"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:427
+#: classes/acf/pro/fields/repeater.php:351
+msgid "Click to toggle"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:573
+msgid "Reorder Layout"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:573
+msgid "Reorder"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:574
+msgid "Delete Layout"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:575
+msgid "Duplicate Layout"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:576
+msgid "Add New Layout"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:647
+msgid "Min"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:660
+msgid "Max"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:687
+#: classes/acf/pro/fields/repeater.php:521
+msgid "Button Label"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:696
+msgid "Minimum Layouts"
+msgstr ""
+
+#: classes/acf/pro/fields/flexible-content.php:705
+msgid "Maximum Layouts"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:36
+msgid "Gallery"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:52
+msgid "Add Image to Gallery"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:56
+msgid "Maximum selection reached"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:336
+msgid "Length"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:379
+msgid "Caption"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:388
+msgid "Alt Text"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:559
+msgid "Add to gallery"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:563
+msgid "Bulk actions"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:564
+msgid "Sort by date uploaded"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:565
+msgid "Sort by date modified"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:566
+msgid "Sort by title"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:567
+msgid "Reverse current order"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:585
+msgid "Close"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:639
+msgid "Minimum Selection"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:648
+msgid "Maximum Selection"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:657
+msgid "Insert"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:658
+msgid "Specify where new attachments are added"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:662
+msgid "Append to the end"
+msgstr ""
+
+#: classes/acf/pro/fields/gallery.php:663
+msgid "Prepend to the beginning"
+msgstr ""
+
+#: classes/acf/pro/fields/repeater.php:36
+msgid "Repeater"
+msgstr ""
+
+#: classes/acf/pro/fields/repeater.php:47
+msgid "Minimum rows reached ({min} rows)"
+msgstr ""
+
+#: classes/acf/pro/fields/repeater.php:48
+msgid "Maximum rows reached ({max} rows)"
+msgstr ""
+
+#: classes/acf/pro/fields/repeater.php:396
+msgid "Add row"
+msgstr ""
+
+#: classes/acf/pro/fields/repeater.php:397
+msgid "Remove row"
+msgstr ""
+
+#: classes/acf/pro/fields/repeater.php:444
+msgid "Sub Fields"
+msgstr ""
+
+#: classes/acf/pro/fields/repeater.php:474
+msgid "Collapsed"
+msgstr ""
+
+#: classes/acf/pro/fields/repeater.php:475
+msgid "Select a sub field to show when row is collapsed"
+msgstr ""
+
+#: classes/acf/pro/fields/repeater.php:485
+msgid "Minimum Rows"
+msgstr ""
+
+#: classes/acf/pro/fields/repeater.php:495
+msgid "Maximum Rows"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:130 classes/admin/WCST_AdminMenu.php:213
+#: classes/admin/WCST_AdminMenu.php:470
+msgid "NOTE:"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:130 classes/admin/WCST_AdminMenu.php:470
+msgid ""
+"WPML Detected! to translate following texts simply select the language you "
+"desire from the upper WPML language selector, edit texts and save!"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:132
+msgid "Edit email and \"Order details\" page messages"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:138
+msgid ""
+"For main shipping company use the following shortocodes "
+"<strong>[shipping_company_name]</strong>, <strong>[tracking_number]</"
+"strong>, <strong>[custom_text]</strong>, <strong>[dispatch_date]</strong> "
+"and <strong>[url_track]</strong> to display directly into the messages the "
+"Shipping company name, the tracking number and the tracking url."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:140
+msgid ""
+"For additional shippings, use following shorcodes "
+"<strong>[additional_shipping_company_name]</strong>, "
+"<strong>[additional_shipping_tracking_number]</strong>, "
+"<strong>[additional_custom_text]</strong>, "
+"<strong>[additional_dispatch_date]</strong> and "
+"<strong>[additional_shipping_url_track]</strong>"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:142
+msgid "NOTE"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:143
+msgid ""
+"If you are using a <strong>Custom company</strong> for which you have "
+"<strong>Disabled the tracking url</strong>, use the conditional "
+"<strong>[if_has_tracking_url] [/if_has_tracking_url]</strong> shortcode to "
+"wrap the message part you won't to display in case there is no tracking ur. "
+"This is useful when generating auotomatic tracking links."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:145
+msgid "Exmple:"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:150
+msgid ""
+"In this way the tracking link will not be generated if the current company "
+"has not any tracking url associated."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:153
+msgid "Email message"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:157
+msgid ""
+"Additional email message snippet messagge (In case of one or more additional "
+"shippings. Will be rendered one per additional shippings)."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:161
+msgid "Email message preview"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:164
+msgid "Order details page"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:165
+msgid "Order detail page message"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:169
+msgid ""
+"Additional order detail page snippet messagge (In case of one or more "
+"additional shippings. Will be rendered one per additional shippings)"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:174
+msgid "Order detail page message preview"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:208
+msgid "Saved successfully."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:211
+msgid "Custom defined shipping companies"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:212
+msgid "Add or remove custom shipping companies:"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:214
+#, php-format
+msgid ""
+"You can create a special URL using the <b>%s</b> string in the address. For "
+"example: <i>\"http://www.shipping-company.com/?tacking-code:%s\"</i><br/>In "
+"this way the WCST plugin will include the tracking code directly in the url."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:219
+msgid "Add one more Company"
+msgstr "Aggiung un altra ditta di spedizioni"
+
+#: classes/admin/WCST_AdminMenu.php:226 classes/admin/WCST_AdminMenu.php:246
+#: classes/admin/WCST_AdminMenu.php:275
+msgid "Shipping Company Name:"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:229
+msgid "Set a shipping Company Tracking URL...:"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:231
+msgid "Remove company"
+msgstr "Rimuovi ditta di spedizioni"
+
+#: classes/admin/WCST_AdminMenu.php:233 classes/admin/WCST_AdminMenu.php:253
+#: classes/admin/WCST_AdminMenu.php:282
+msgid "Extra options"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:234 classes/admin/WCST_AdminMenu.php:254
+#: classes/admin/WCST_AdminMenu.php:284
+msgid "Disable the tracking url"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:235 classes/admin/WCST_AdminMenu.php:255
+#: classes/admin/WCST_AdminMenu.php:285
+msgid "The plugin will not generate any tracking url for this company."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:236 classes/admin/WCST_AdminMenu.php:256
+#: classes/admin/WCST_AdminMenu.php:286
+msgid "Disable tracking url"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:239 classes/admin/WCST_AdminMenu.php:259
+#: classes/admin/WCST_AdminMenu.php:289
+msgid "Use a 3rd party tracking service to track the shipping"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:240 classes/admin/WCST_AdminMenu.php:260
+#: classes/admin/WCST_AdminMenu.php:290
+msgid "Use Aftership service to track order"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:241 classes/admin/WCST_AdminMenu.php:261
+#: classes/admin/WCST_AdminMenu.php:291
+msgid "Use TrackingMore service to track order"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:249
+msgid "Shipping Company Tracking URL:"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:251 classes/admin/WCST_AdminMenu.php:280
+msgid "Remove field"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:278
+msgid "Shipping Company URL:"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:299 classes/admin/WCST_AdminMenu.php:440
+#: classes/admin/WCST_AdminMenu.php:529 classes/admin/WCST_AdminMenu.php:658
+msgid "Save Changes"
+msgstr "Salva"
+
+#: classes/admin/WCST_AdminMenu.php:328
+msgid "Select Shipping Companies used to ship products"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:333
+msgid "Select default company"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:335 classes/com/WCST_HtmlHelper.php:138
+#: classes/com/WCST_HtmlHelper.php:168 classes/com/WCST_HtmlHelper.php:211
+msgid "No Tracking"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:369
+msgid "User defined Companies list:"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:370
+msgid "You can add new ones clicking on the \"Add custom company\" menu link."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:402
+msgid "Already defined Companies list:"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:475
+msgid "Visibility"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:476
+msgid "Show on Checkout page"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:477
+msgid "Show on Order details page"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:480
+msgid "Delivery date and time"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:481
+msgid ""
+"If enabled, be displayed a date and time selector to let the user to decide "
+"an optional date and/or time when receive items"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:483
+msgid "Display date range"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:485
+msgid "Time ranges"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:486
+msgid ""
+"Display time range (you can restrict selection using the following starting "
+"and ending hours and minutes boxes)"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:487 classes/admin/WCST_AdminMenu.php:496
+msgid "Start hour & minute"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:490 classes/admin/WCST_AdminMenu.php:499
+msgid "End hour & minute"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:495
+msgid ""
+"Display secondary time range (will be displayed only in previous option has "
+"been checked. You can restrict selection using the following starting and "
+"ending hours and minutes boxes)"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:504
+msgid "Title, labels and description"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:507
+msgid "Ex.: Additional shipping delivery info"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:510
+msgid "Will be visible only if one of the previews option has been selected."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:512
+msgid "Date range label"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:513
+msgid "Ex.: Select a start and end period."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:516
+msgid "Time range label"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:517
+msgid "Ex.: Select a start and end time period."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:520
+msgid "Seconday time range"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:521
+msgid "Ex.: Select a secondary start and end time period."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:525
+msgid ""
+"Ex.: Type a preferead Date and time to receive you items, we will do the "
+"best to respect your needings."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:550 classes/admin/WCST_AdminMenu.php:634
+#: classes/frontend/WCST_ProductPage.php:18
+msgid "Estimated shipping date:"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:570 shipping-tracking.php:160
+msgid "General options"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:574
+msgid "Email options"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:576
+msgid "Include tracking info only if an order is marked as completed?"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:578
+msgid ""
+"By default tracking info are displayed in every woocommerce outgoing email "
+"only if the Order status is completed. Select which in which order "
+"status(es) would you like to include the info:"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:585
+msgid "Custom statuses"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:586
+msgid ""
+"In case you are using custom statuses email, please enter the status codes "
+"comma separated for which you want to embed shipping tracking info:"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:589
+msgid "Date format"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:590
+msgid "Select the date format used for dispatch and delivery dates"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:592
+msgid "dd/mm/yyyy"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:593
+msgid "mm/dd/yyyy"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:594
+msgid "dd.mm.yyyy"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:595
+msgid "mm.dd.yyyy"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:596
+msgid "dd-mm-yyyy"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:597
+msgid "mm-dd-yyyy"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:598
+msgid "F j, Y"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:601
+msgid "Tracking form redirection"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:602
+msgid ""
+"Select redirection method. Using the \"Open new tab\" method could cause the "
+"browse to detect the new tab as a popup."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:604
+msgid "Same page"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:605
+msgid "Open a new tab"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:608
+msgid "Tacking info positioning"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:609
+msgid "Order details page: select where to display tracking info"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:611
+msgid "After order table"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:612
+msgid "Before order table"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:615
+msgid "Product Page - automatic estimated shipping info positioning"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:616
+msgid ""
+"By default estimated shipping info on product page is displayed using the "
+"[wcst_show_estimated_date] shortcode. However using the following option you "
+"can display that info automatically at specific positions:"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:618
+msgid "Do not automatically show"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:619
+msgid "After variable options dropdown(s) and before add to cart button"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:620
+msgid "Before both variable options dropdown(s)\tand add to cart button"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:621
+msgid "After add to cart button"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:622
+msgid "After product images"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:623
+msgid "Before product Images"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:624
+msgid "Before short description"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:625
+msgid "After product description"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:628
+msgid "Label to display before the date:"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:631
+msgid ""
+"<strong>WPML NOTE:</strong> to localize this label, simply switch language "
+"using WPML language selector and then save the options."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:636
+msgid "Automatic bulk import"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:637
+msgid ""
+"<strong>NOTE:</strong> Scheduling task is performed using the WordPress "
+"function <i>wp_schedule_event()</i>. It will trigger  the scheduled import "
+"task at the specified interval <strong>ONLY</strong> if someone visits your "
+"WordPress site. More info at <a href=\"https://codex.wordpress.org/"
+"Function_Reference/wp_schedule_event\" target=\"_blank\">wp_schedule_event "
+"reference page</a>."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:638
+msgid "Enable automatic bulk import?"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:645
+msgid "Set a valid csv url path"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:646
+msgid "It can be a DropBox public url, http url, etc..."
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:649
+msgid "How often has the automatic import to be performed?"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:651
+msgid "Hourly"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:652
+msgid "Twice a day"
+msgstr ""
+
+#: classes/admin/WCST_AdminMenu.php:653
+msgid "Daily"
+msgstr ""
+
+#: classes/admin/WCST_BulkImport.php:19
+msgid "Import tracking info"
+msgstr ""
+
+#: classes/admin/WCST_BulkImport.php:22
+msgid "Select a .csv file that has the following columns:"
+msgstr ""
+
+#: classes/admin/WCST_BulkImport.php:25
+msgid ""
+"Leave empty to leave order status unchanghed, otherwise use the follwing "
+"codes to set order status: "
+msgstr ""
+
+#: classes/admin/WCST_BulkImport.php:33
+msgid ""
+"Leave empty for no notification, otherwise choose one of the following "
+"values to resend a notification email: <strong>send_email_new_order</"
+"strong>, <strong>send_email_cancelled_order</strong>, "
+"<strong>send_email_customer_processing_order</strong>, "
+"<strong>send_email_customer_completed_order</strong>, "
+"<strong>send_email_customer_refunded_order</strong>, "
+"<strong>send_email_customer_invoice</strong>"
+msgstr ""
+
+#: classes/admin/WCST_BulkImport.php:34
+msgid ""
+"In case of multiple tracking code, can be spacified multiple dispatch dates "
+"using the <strong>|</strong> character to separate dates: "
+"<strong>dispatch_date1|dispatch_date2</strong>"
+msgstr ""
+
+#: classes/admin/WCST_BulkImport.php:35
+msgid ""
+"<strong>REMOVE ALL , CHARACTERS</strong> eventually present in this field "
+"otherwise import <strong>WILL FAIL</strong>. In case of multiple tracking "
+"code, can be spacified multiple text using the <strong>|</strong> character "
+"to separate texts: <strong>text1|text2</strong>"
+msgstr ""
+
+#: classes/admin/WCST_BulkImport.php:36
+msgid ""
+"this column must have the following format: <strong>company_id:"
+"tracking_code</strong>. In case of multiple codes use the <strong>|</strong> "
+"to separate the info: <strong>company_id:tracking_code|company_id2:"
+"tracking_code2</strong>. All compani ids are reported in the "
+"<strong>Shipping companies</strong> section"
+msgstr ""
+
+#: classes/admin/WCST_BulkImport.php:45
+msgid "Start import"
+msgstr ""
+
+#: classes/admin/WCST_BulkImport.php:47
+msgid "Import another csv"
+msgstr ""
+
+#: classes/admin/WCST_Dashboard.php:12
+msgid "WooCommerce shipping tracking - Server time"
+msgstr ""
+
+#: classes/admin/WCST_Dashboard.php:25
+msgid "Current server time with offset (date format: dd/mm/yyyy):"
+msgstr ""
+
+#: classes/admin/WCST_ExtraDelivery.php:105
+msgid "Delivery date range: "
+msgstr ""
+
+#: classes/admin/WCST_ExtraDelivery.php:115
+#: template/mail_extra_delivery_info.php:16
+msgid "Delivery time range: "
+msgstr ""
+
+#: classes/admin/WCST_ExtraDelivery.php:125
+#: template/mail_extra_delivery_info.php:26
+msgid "Delivery secondary time range: "
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:47
+msgid "Shipping info added"
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:71
+msgid "How it works?"
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:72
+msgid ""
+"In this section in just 3 step you can easily assign one or more shipping "
+"tracking info to an order. NOTE: older order info will be overwritten. Leave "
+"empty to clear an order shipping info data."
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:73
+msgid "1. Select order"
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:74
+msgid ""
+"You can search by order id, order date, user id, billing email and billing/"
+"shipping first and last name"
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:77
+msgid "2. Assign a shipping"
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:80
+msgid "3. Change order status?"
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:81
+msgid ""
+"Note that if the order hits for the first time a status, a notification "
+"email will be send automatically to the user"
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:83
+msgid "Leave unchanged"
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:89
+msgid ""
+"Resend order emails? (useful to force email sending if an order already "
+"hitted a status)"
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:92
+msgid "New order"
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:93
+msgid "Cancelled order"
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:94
+msgid "Processing order"
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:95
+msgid "Completed order"
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:96
+msgid "Refunded order"
+msgstr ""
+
+#: classes/admin/WCST_QuickAssignPage.php:97
+msgid "Customer invoice"
+msgstr ""
+
+#: classes/admin/WCST_WooCommerceAddon.php:41
+msgid "Select a shipping company"
+msgstr ""
+
+#: classes/admin/WCST_WooCommerceAddon.php:84
+msgid "Tracking Number"
+msgstr ""
+
+#: classes/admin/WCST_WooCommerceAddon.php:122
+msgid "Estimated shipping rule"
+msgstr ""
+
+#: classes/admin/WCST_WooCommerceAddon.php:188
+msgid "Tracking Code"
+msgstr ""
+
+#: classes/com/WCST_Email.php:34
+msgid "Something needs your attention..."
+msgstr ""
+
+#: classes/com/WCST_Email.php:38
+msgid "<h2>The following error has been generated by your site:</h2>"
+msgstr ""
+
+#: classes/com/WCST_HtmlHelper.php:129
+msgid ""
+"Add, edit or remove the tracking info. Once done click on the \"Save Order\" "
+"button to update order tracking info."
+msgstr ""
+
+#: classes/com/WCST_HtmlHelper.php:134 classes/com/WCST_HtmlHelper.php:164
+#: classes/com/WCST_HtmlHelper.php:209
+msgid "Shipping Company:"
+msgstr "Compagnia di spedizione:"
+
+#: classes/com/WCST_HtmlHelper.php:143 classes/com/WCST_HtmlHelper.php:173
+#: classes/com/WCST_HtmlHelper.php:216
+msgid "Tracking Number:"
+msgstr ""
+
+#: classes/com/WCST_HtmlHelper.php:144 classes/com/WCST_HtmlHelper.php:174
+#: classes/com/WCST_HtmlHelper.php:217
+msgid "Enter Tracking No"
+msgstr ""
+
+#: classes/com/WCST_HtmlHelper.php:147 classes/com/WCST_HtmlHelper.php:177
+#: classes/com/WCST_HtmlHelper.php:220
+msgid "Dispatch date"
+msgstr ""
+
+#: classes/com/WCST_HtmlHelper.php:148 classes/com/WCST_HtmlHelper.php:221
+msgid "19/02/15 or 15th December 2015"
+msgstr ""
+
+#: classes/com/WCST_HtmlHelper.php:151 classes/com/WCST_HtmlHelper.php:181
+#: classes/com/WCST_HtmlHelper.php:224
+msgid "Custom text"
+msgstr ""
+
+#: classes/com/WCST_HtmlHelper.php:152 classes/com/WCST_HtmlHelper.php:182
+#: classes/com/WCST_HtmlHelper.php:225
+msgid "Info about the shipped item(s) or whatever you want"
+msgstr ""
+
+#: classes/com/WCST_HtmlHelper.php:156
+msgid "Additional tracking codes"
+msgstr ""
+
+#: classes/com/WCST_HtmlHelper.php:178
+msgid "19/02/16 or 15th Dec 2016"
+msgstr ""
+
+#: classes/com/WCST_HtmlHelper.php:190
+msgid "Add another tracking code"
+msgstr ""
+
+#: classes/com/WCST_HtmlHelper.php:192
+msgid "Disable email embedding"
+msgstr ""
+
+#: classes/com/WCST_HtmlHelper.php:193
+msgid ""
+"This option overrides the <strong>General options -> Email options</strong> "
+"settings and will allow you to not embed tracking info in any WooCommerce "
+"email"
+msgstr ""
+
+#: classes/com/WCST_Option.php:166
+msgid "Select a date range"
+msgstr ""
+
+#: classes/com/WCST_Option.php:167
+msgid "Select a time range"
+msgstr ""
+
+#: classes/com/WCST_Option.php:169
+msgid "Select a secondary time range"
+msgstr ""
+
+#: classes/com/WCST_Option.php:170
+msgid "Select a preferred delivery date and time"
+msgstr ""
+
+#: classes/com/WCST_Order.php:24
+#, php-format
+msgid ""
+"Automatic bulk importer task failed because could not load the following "
+"file: %s"
+msgstr ""
+
+#: classes/com/WCST_Order.php:90
+#, php-format
+msgid "Order %s: the id is not valid."
+msgstr ""
+
+#: classes/com/WCST_Order.php:100
+#, php-format
+msgid ""
+"Order %s: selected status was not valid. Its status has been left unchanged."
+msgstr ""
+
+#: classes/com/WCST_Order.php:109
+#, php-format
+msgid ""
+"Order %s: notification email status was not valid. No notification has been "
+"sent."
+msgstr ""
+
+#: classes/com/WCST_Order.php:126
+#, php-format
+msgid "Order %s: tacking info is not valid."
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:4
+msgid "Afghan POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:5
+msgid "AFL Logistics / Transportation"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:6
+msgid "AFL WiZ Express"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:7
+msgid "An POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:8
+msgid "A-1 International"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:9
+msgid "APC OverNight"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:10
+msgid "Aramex"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:11
+msgid "ATS Solutions Canada"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:12
+msgid "ATS Healthcare"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:13
+msgid "Australia POST Domestic"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:14
+msgid "Australia POST International"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:15
+msgid "BlazeFlash Domestic"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:16
+msgid "BlazeFlash International"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:17
+msgid "BlueDart"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:18
+msgid "Bartolini Courier Express"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:19
+msgid "Canada POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:21
+msgid "CEVA"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:22
+msgid "China POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:23
+msgid "Chrono Expres"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:24
+msgid "Chronos Couriers"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:25
+msgid "City link"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:26
+msgid "CitySprint"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:27
+msgid "Colissimo"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:28
+msgid "Collect+"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:29
+msgid "Correios"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:30
+msgid "Correios Chile"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:31
+msgid "Correo Argentino"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:32
+msgid "CourierPost"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:33
+msgid "CTT"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:34
+msgid "Danske Fragtmand"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:35
+msgid "Deutsche Post"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:36
+msgid "DHL"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:37
+msgid "DHLFORYOU International"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:38
+msgid "DHL Germany"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:39
+msgid "DPD Ireland"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:40
+msgid "DPD Parcel"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:41
+msgid "Dynamex"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:42
+msgid "Elta"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:43
+msgid "Ensenda"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:44
+msgid "Fastway Couriers AU"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:45
+msgid "Fastway Couriers NZ"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:46
+msgid "Fedex"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:47
+msgid "First Flight Courier"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:48
+msgid "FlyKing"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:49
+msgid "GATI"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:50
+msgid "GD Express"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:51
+msgid "GLS International"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:52
+msgid "GLS Italia"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:53
+msgid "GLS Denmark"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:54
+msgid "Home Delivery Network"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:55
+msgid "HongKong POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:56
+msgid "ICC Worldwide"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:57
+msgid "InterLink Express"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:58
+msgid "JNE Express"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:59
+msgid "Japan POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:60
+msgid "LA Poste"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:61
+msgid "LaserShip"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:62
+msgid "LBC Express"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:63
+msgid "Lithuania POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:64
+msgid "Hermes UK"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:65
+msgid "My Hermes EU & Germany"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:66
+msgid "NAPAREX"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:67
+msgid "New Zealand Post"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:68
+msgid "New Zealand Couriers"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:69
+msgid "OCA Argentina"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:70
+msgid "OM International Courier & Cargo"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:71
+msgid "OnTrac"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:72
+msgid "Orbit Worldwide"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:73
+msgid "OverSeas Courier Service"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:74
+msgid "Pakistan POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:75
+msgid "Parcel2Go"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:76
+msgid "Parcel Force"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:77
+msgid "Parcel link"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:78
+msgid "PBT Transport"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:81
+msgid "PHL Post"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:82
+msgid "Poslaju National Courier"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:83
+msgid "POS Malaysia"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:84
+msgid "Post Danmark"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:85
+msgid "POST India"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:86
+msgid "POSTNL International"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:87
+msgid "POSTNL Local"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:88
+msgid "Posten Norway"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:89
+msgid "POST Office UK"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:90
+msgid "Posten Sweden"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:91
+msgid "Purolator"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:92
+msgid "Romania POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:93
+msgid "Royal Mail"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:94
+msgid "SafeXpress"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:95
+msgid "South African Post Office"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:96
+msgid "Selektvracht"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:97
+msgid "Shree Mahavir Courier"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:98
+msgid "Shree Maruti Courier"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:99
+msgid "SingPost"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:100
+msgid "SkyNET"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:101
+msgid "SmartSend"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:102
+msgid "S M Courier Services"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:103
+msgid "Spee Dee"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:104
+msgid "T-Cat"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:105
+msgid "TNT Express"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:106
+msgid "The Professionals Courier"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:107
+msgid "TradeLink International"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:108
+msgid "Urgent Air Courier Express"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:109
+msgid "UK Mail"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:110
+msgid "UPS"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:111
+msgid "UPS Germany"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:112
+msgid "US Postal Service"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:113
+msgid "Yodel"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:114
+msgid "Thailand POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:115
+msgid "Poste Italiane"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:116
+msgid "Toll Australia"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:117
+msgid "Russian POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:118
+msgid "Inter Parcel"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:119
+msgid "DTDC India"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:120
+msgid "Austria POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:121
+msgid "Armenia POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:122
+msgid "Belarus POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:123
+msgid "Belgium POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:124
+msgid "Bulgarian POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:125
+msgid "Finland POST"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:126
+msgid "ChronoPOST France"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:127
+msgid "Temando"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:128
+msgid "Seur"
+msgstr ""
+
+#: included_companies/WCST_shipping_companies_list.php:129
+msgid "Vietnam Post"
+msgstr ""
+
+#: shipping-tracking.php:154
+msgid "Shipping tracking"
+msgstr ""
+
+#: shipping-tracking.php:155
+msgid "Shipping companies"
+msgstr ""
+
+#: shipping-tracking.php:157
+msgid "Add custom company"
+msgstr ""
+
+#: shipping-tracking.php:158
+msgid "Edit emails/order page messages"
+msgstr ""
+
+#: shipping-tracking.php:159
+msgid "Delivery date and time input fields"
+msgstr ""
+
+#: shipping-tracking.php:161
+msgid "Quick assign"
+msgstr ""
+
+#: shipping-tracking.php:162
+msgid "Bulk import"
+msgstr ""
+
+#: template/checkout_form.php:2
+#: template/order_details_extra_delivery_info.php:2
+msgid "Check start and end date. Start date cannot be greater than end."
+msgstr ""
+
+#: template/checkout_form.php:3
+#: template/order_details_extra_delivery_info.php:3
+msgid "Check start and end time. Start time cannot be greater than end."
+msgstr ""
+
+#: template/checkout_form.php:4
+#: template/order_details_extra_delivery_info.php:4
+msgid ""
+"Check secondary start and end time. Start time cannot be greater than end."
+msgstr ""
+
+#: template/mail.php:35 template/mail.php:36 template/mail.php:37
+#: template/order_details.php:36 template/order_details.php:37
+#: template/order_details.php:38
+msgid "N/A"
+msgstr ""
+
+#: template/mail_extra_delivery_info.php:6
+msgid "Delivery date range"
+msgstr ""
+
+#: template/mail_extra_delivery_info.php:8
+#: template/mail_extra_delivery_info.php:18
+#: template/mail_extra_delivery_info.php:28
+msgid "From: "
+msgstr ""
+
+#: template/mail_extra_delivery_info.php:9
+#: template/mail_extra_delivery_info.php:19
+#: template/mail_extra_delivery_info.php:29
+msgid "To: "
+msgstr ""
+
+#: template/my_account_orders_table.php:28
+#: template/my_account_orders_table.php:34
+msgid "Track shipment"
+msgstr "Traccia spedizione"
+
+#: template/order_details_extra_delivery_info.php:69
+msgid "Save"
+msgstr ""
+
+#: template/shortcode_tracking_input.php:5
+msgid "Please fill the tracking code input field."
+msgstr ""
+
+#: template/shortcode_tracking_input.php:13
+msgid "Select a company:"
+msgstr ""
+
+#: template/shortcode_tracking_input.php:32
+msgid "Type the tracking code:"
+msgstr ""
+
+#: template/shortcode_tracking_input.php:34
+msgid "Track"
+msgstr ""
+
+#~ msgid "Tracking #"
+#~ msgstr "Numero di Tracking"
+
+#~ msgid "Track shipment 2"
+#~ msgstr "Prova"
+
+#~ msgid "CLICK HERE"
+#~ msgstr "CLICCA QUI"
