@@ -13,7 +13,6 @@
     <header class="user-bar">
         <div class="row column">
             <ul class="dropdown menu" data-dropdown-menu>
-                <li><a href="{{ my_cart }}">Cart {% if woo.cart.get_cart_contents_count() %}&nbsp; <span class="accent badge">{{ woo.cart.get_cart_contents_count() }}</span>{% endif %}</a></li>
                 {% if SP.WordPress.isLoggedIn() %}
                     <li>
                         <a href="#">{{ avatar }}</a>
